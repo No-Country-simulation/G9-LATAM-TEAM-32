@@ -1,0 +1,45 @@
+# ===== Python / Data Science =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# ===== Java / Maven / Spring Boot =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# ===== Node (si se agrega dashboard/frontend como stretch goal) =====
+node_modules/
+dist/
+build/
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.iml
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+
+# ===== Datos y modelos (pueden ser pesados o sensibles: viven en OCI Object Storage, no en git) =====
+data-science/data/raw/*
+data-science/data/interim/*
+data-science/data/processed/*
+data-science/data/external/*
+!data-science/data/**/.gitkeep
+
+data-science/models/*.pkl
+data-science/models/*.joblib
+data-science/models/*.onnx
+!data-science/models/.gitkeep
+
+# ===== Logs =====
+*.log
