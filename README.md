@@ -88,12 +88,13 @@ POST /analisis-financiero
 
 ## Estado del MVP
 
-- [ ] Notebook con EDA, ingeniería de atributos y modelos
-- [ ] API REST con endpoints de clasificación de gastos
-- [ ] Clasificación de perfil financiero
-- [ ] Recomendaciones personalizadas en JSON
-- [ ] Alertas de gastos elevados
+- [x] Notebook con EDA, ingeniería de atributos y modelos
+- [x] API REST con endpoints de clasificación de gastos
+- [x] Clasificación de perfil financiero
+- [x] Recomendaciones personalizadas en JSON
+- [x] Alertas de gastos elevados
 - [ ] Integración con al menos un servicio OCI
+
 
 ## Video demo
 
