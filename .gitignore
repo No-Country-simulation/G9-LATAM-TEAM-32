@@ -40,6 +40,10 @@ data-science/models/*.pkl
 data-science/models/*.joblib
 data-science/models/*.onnx
 !data-science/models/.gitkeep
+!data-science/models/modelo_ia.pkl
+!data-science/data/processed/dataset.json
+!inference-service/modelo_ia.pkl
+
 
 # ===== Logs =====
 *.log
