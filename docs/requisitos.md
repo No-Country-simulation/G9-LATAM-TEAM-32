@@ -15,7 +15,7 @@
 | FR-07 | Cargar y usar un modelo entrenado y serializado desde el backend. | ✅ Completado (modelo_ia.pkl) |
 | FR-08 | Alertar sobre gastos elevados. | ✅ Completado (Motor Experto) |
 | FR-09 | Presentar como mínimo tres ejemplos reales de uso de la API. | ⬜ Pendiente (Demo) |
-| FR-10 | Realizar un CRUD de los ingresos y gastos. ⬜ Pendiente |  
+| FR-10 | Realizar un CRUD de los ingresos y gastos. | ⬜ Pendiente |  
 
 ## Requisitos no funcionales (propuestos — marco ISO/IEC 25010)
 
