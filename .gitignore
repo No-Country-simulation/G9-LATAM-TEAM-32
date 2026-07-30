@@ -25,6 +25,9 @@ build/
 .idea/
 *.iml
 
+# ===== tools=====
+.claude/
+
 # ===== Sistema operativo =====
 .DS_Store
 Thumbs.db
