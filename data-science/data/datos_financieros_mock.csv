@@ -1,0 +1,167 @@
+Fecha,Descripcion,Categoria,Monto,Tipo,Balance_Acumulado
+2026-04-16,Cervecería,Entretenimiento,-78.36,Gasto,4921.64
+2026-04-16,Cervecería,Entretenimiento,-87.22,Gasto,4834.42
+2026-04-16,Supermercado,Comida,-39.81,Gasto,4794.61
+2026-04-17,Concierto,Entretenimiento,-78.1,Gasto,4716.51
+2026-04-17,Uber,Transporte,-41.7,Gasto,4674.81
+2026-04-17,Curso Online,Educación/Salud,-38.61,Gasto,4636.2
+2026-04-18,Peaje,Transporte,-9.61,Gasto,4626.59
+2026-04-18,Gimnasio,Educación/Salud,-19.31,Gasto,4607.28
+2026-04-19,Netflix,Servicios,-36.5,Gasto,4570.78
+2026-04-19,Internet,Servicios,-56.77,Gasto,4514.01
+2026-04-19,Spotify,Servicios,-48.02,Gasto,4465.99
+2026-04-20,Concierto,Entretenimiento,-42.57,Gasto,4423.42
+2026-04-23,Netflix,Servicios,-29.69,Gasto,4393.73
+2026-04-23,Celular,Servicios,-53.43,Gasto,4340.3
+2026-04-23,PedidosYa,Comida,-23.37,Gasto,4316.93
+2026-04-24,Subte/Metro,Transporte,-39.62,Gasto,4277.3099999999995
+2026-04-24,Restaurante,Comida,-10.98,Gasto,4266.33
+2026-04-24,Supermercado,Comida,-27.22,Gasto,4239.11
+2026-04-25,Peaje,Transporte,-22.4,Gasto,4216.71
+2026-04-25,Netflix,Servicios,-42.45,Gasto,4174.26
+2026-04-26,Supermercado,Comida,-31.1,Gasto,4143.16
+2026-04-26,Supermercado,Comida,-37.58,Gasto,4105.58
+2026-04-26,Cafetería,Comida,-13.52,Gasto,4092.06
+2026-04-26,Gimnasio,Educación/Salud,-6.78,Gasto,4085.2799999999997
+2026-04-27,Luz/Agua,Servicios,-23.66,Gasto,4061.62
+2026-04-30,Reembolso,Ingresos,135.62,Ingreso,4197.24
+2026-04-30,Gimnasio,Educación/Salud,-26.24,Gasto,4171.0
+2026-04-30,Restaurante,Comida,-32.75,Gasto,4138.25
+2026-05-01,Depósito de Nómina / Salario,Ingresos,1644.48,Ingreso,5782.73
+2026-05-02,Celular,Servicios,-16.54,Gasto,5766.19
+2026-05-02,Cine,Entretenimiento,-58.54,Gasto,5707.65
+2026-05-02,Cafetería,Comida,-24.94,Gasto,5682.71
+2026-05-03,Subte/Metro,Transporte,-27.29,Gasto,5655.42
+2026-05-04,Shopping,Entretenimiento,-87.25,Gasto,5568.17
+2026-05-05,Cafetería,Comida,-16.9,Gasto,5551.27
+2026-05-05,Subte/Metro,Transporte,-14.17,Gasto,5537.1
+2026-05-06,Restaurante,Comida,-23.65,Gasto,5513.45
+2026-05-07,Shopping,Entretenimiento,-58.39,Gasto,5455.06
+2026-05-07,Cervecería,Entretenimiento,-60.16,Gasto,5394.9
+2026-05-07,Cervecería,Entretenimiento,-63.55,Gasto,5331.35
+2026-05-08,Shopping,Entretenimiento,-83.76,Gasto,5247.59
+2026-05-08,Gimnasio,Educación/Salud,-25.2,Gasto,5222.39
+2026-05-08,Peaje,Transporte,-12.0,Gasto,5210.39
+2026-05-09,Curso Online,Educación/Salud,-8.15,Gasto,5202.24
+2026-05-10,Venta usada,Ingresos,167.25,Ingreso,5369.49
+2026-05-10,Internet,Servicios,-59.36,Gasto,5310.13
+2026-05-10,Peaje,Transporte,-8.48,Gasto,5301.65
+2026-05-11,Farmacia,Educación/Salud,-18.76,Gasto,5282.89
+2026-05-11,Farmacia,Educación/Salud,-35.0,Gasto,5247.89
+2026-05-11,Combustible,Transporte,-6.04,Gasto,5241.85
+2026-05-12,Restaurante,Comida,-31.57,Gasto,5210.28
+2026-05-12,Curso Online,Educación/Salud,-27.13,Gasto,5183.150000000001
+2026-05-12,Cine,Entretenimiento,-114.73,Gasto,5068.42
+2026-05-13,Subte/Metro,Transporte,-14.82,Gasto,5053.6
+2026-05-14,Cafetería,Comida,-9.2,Gasto,5044.400000000001
+2026-05-15,Concierto,Entretenimiento,-69.99,Gasto,4974.41
+2026-05-15,Curso Online,Educación/Salud,-26.25,Gasto,4948.16
+2026-05-16,Celular,Servicios,-44.38,Gasto,4903.78
+2026-05-17,Supermercado,Comida,-23.86,Gasto,4879.92
+2026-05-18,Uber,Transporte,-33.27,Gasto,4846.650000000001
+2026-05-18,Netflix,Servicios,-42.51,Gasto,4804.14
+2026-05-18,Combustible,Transporte,-23.41,Gasto,4780.7300000000005
+2026-05-19,Gimnasio,Educación/Salud,-10.39,Gasto,4770.34
+2026-05-19,Concierto,Entretenimiento,-96.11,Gasto,4674.2300000000005
+2026-05-19,Cafetería,Comida,-29.23,Gasto,4645.0
+2026-05-20,Farmacia,Educación/Salud,-32.11,Gasto,4612.89
+2026-05-20,Shopping,Entretenimiento,-114.44,Gasto,4498.45
+2026-05-20,Netflix,Servicios,-58.79,Gasto,4439.66
+2026-05-21,Uber,Transporte,-39.09,Gasto,4400.57
+2026-05-21,Cervecería,Entretenimiento,-71.2,Gasto,4329.37
+2026-05-23,Concierto,Entretenimiento,-110.24,Gasto,4219.13
+2026-05-24,Uber,Transporte,-31.55,Gasto,4187.58
+2026-05-24,Subte/Metro,Transporte,-29.56,Gasto,4158.02
+2026-05-25,Shopping,Entretenimiento,-31.81,Gasto,4126.21
+2026-05-26,Peaje,Transporte,-10.28,Gasto,4115.93
+2026-05-26,Concierto,Entretenimiento,-109.17,Gasto,4006.76
+2026-05-26,Netflix,Servicios,-43.2,Gasto,3963.5600000000004
+2026-05-27,Curso Online,Educación/Salud,-15.91,Gasto,3947.65
+2026-05-28,Gimnasio,Educación/Salud,-13.67,Gasto,3933.98
+2026-05-28,Combustible,Transporte,-26.05,Gasto,3907.9300000000003
+2026-05-29,Luz/Agua,Servicios,-31.62,Gasto,3876.3100000000004
+2026-05-29,Subte/Metro,Transporte,-11.54,Gasto,3864.7700000000004
+2026-05-30,Gimnasio,Educación/Salud,-17.68,Gasto,3847.09
+2026-05-30,Subte/Metro,Transporte,-30.52,Gasto,3816.57
+2026-05-30,Gimnasio,Educación/Salud,-28.4,Gasto,3788.17
+2026-05-30,PedidosYa,Comida,-17.7,Gasto,3770.4700000000003
+2026-05-31,Cine,Entretenimiento,-84.14,Gasto,3686.33
+2026-05-31,Concierto,Entretenimiento,-69.97,Gasto,3616.3599999999997
+2026-05-31,Cine,Entretenimiento,-27.79,Gasto,3588.5699999999997
+2026-05-31,Shopping,Entretenimiento,-94.03,Gasto,3494.54
+2026-06-01,Depósito de Nómina / Salario,Ingresos,1787.72,Ingreso,5282.26
+2026-06-01,Cine,Entretenimiento,-28.47,Gasto,5253.79
+2026-06-01,Celular,Servicios,-41.76,Gasto,5212.03
+2026-06-02,Cine,Entretenimiento,-82.52,Gasto,5129.51
+2026-06-02,Subte/Metro,Transporte,-41.38,Gasto,5088.13
+2026-06-02,Transferencia recibida,Ingresos,59.91,Ingreso,5148.04
+2026-06-02,Internet,Servicios,-54.39,Gasto,5093.65
+2026-06-03,Cervecería,Entretenimiento,-25.93,Gasto,5067.72
+2026-06-05,Shopping,Entretenimiento,-115.09,Gasto,4952.63
+2026-06-05,Luz/Agua,Servicios,-53.53,Gasto,4899.1
+2026-06-06,Gimnasio,Educación/Salud,-25.39,Gasto,4873.71
+2026-06-07,PedidosYa,Comida,-10.16,Gasto,4863.55
+2026-06-07,Concierto,Entretenimiento,-95.1,Gasto,4768.45
+2026-06-08,Gimnasio,Educación/Salud,-22.79,Gasto,4745.66
+2026-06-08,Cervecería,Entretenimiento,-64.86,Gasto,4680.8
+2026-06-09,Gimnasio,Educación/Salud,-17.61,Gasto,4663.19
+2026-06-09,Netflix,Servicios,-16.01,Gasto,4647.18
+2026-06-10,Supermercado,Comida,-43.83,Gasto,4603.35
+2026-06-10,Supermercado,Comida,-24.65,Gasto,4578.7
+2026-06-10,Combustible,Transporte,-44.87,Gasto,4533.83
+2026-06-11,Restaurante,Comida,-34.46,Gasto,4499.37
+2026-06-13,Internet,Servicios,-21.77,Gasto,4477.6
+2026-06-14,Cafetería,Comida,-42.71,Gasto,4434.89
+2026-06-14,Spotify,Servicios,-15.52,Gasto,4419.37
+2026-06-17,Cervecería,Entretenimiento,-81.94,Gasto,4337.43
+2026-06-19,Restaurante,Comida,-22.82,Gasto,4314.61
+2026-06-20,Restaurante,Comida,-27.94,Gasto,4286.67
+2026-06-20,Spotify,Servicios,-50.49,Gasto,4236.18
+2026-06-20,Peaje,Transporte,-31.16,Gasto,4205.02
+2026-06-21,Supermercado,Comida,-14.44,Gasto,4190.58
+2026-06-21,Curso Online,Educación/Salud,-19.2,Gasto,4171.38
+2026-06-21,Curso Online,Educación/Salud,-39.5,Gasto,4131.88
+2026-06-22,Celular,Servicios,-34.6,Gasto,4097.28
+2026-06-22,PedidosYa,Comida,-41.24,Gasto,4056.04
+2026-06-23,Restaurante,Comida,-20.8,Gasto,4035.24
+2026-06-23,Combustible,Transporte,-16.8,Gasto,4018.44
+2026-06-23,Subte/Metro,Transporte,-5.03,Gasto,4013.41
+2026-06-24,Celular,Servicios,-33.03,Gasto,3980.38
+2026-06-25,Restaurante,Comida,-42.57,Gasto,3937.81
+2026-06-25,Curso Online,Educación/Salud,-29.69,Gasto,3908.12
+2026-06-27,Luz/Agua,Servicios,-49.76,Gasto,3858.3599999999997
+2026-06-27,Cervecería,Entretenimiento,-96.17,Gasto,3762.1899999999996
+2026-06-27,Cine,Entretenimiento,-106.66,Gasto,3655.5299999999997
+2026-06-28,Subte/Metro,Transporte,-30.57,Gasto,3624.96
+2026-06-29,PedidosYa,Comida,-16.84,Gasto,3608.12
+2026-06-29,Cervecería,Entretenimiento,-38.09,Gasto,3570.0299999999997
+2026-06-29,Shopping,Entretenimiento,-55.31,Gasto,3514.7200000000003
+2026-06-30,Transferencia recibida,Ingresos,152.06,Ingreso,3666.7799999999997
+2026-06-30,Spotify,Servicios,-43.39,Gasto,3623.39
+2026-06-30,Subte/Metro,Transporte,-18.15,Gasto,3605.24
+2026-07-01,Spotify,Servicios,-26.45,Gasto,3578.79
+2026-07-01,Depósito de Nómina / Salario,Ingresos,1595.28,Ingreso,5174.07
+2026-07-02,Farmacia,Educación/Salud,-41.22,Gasto,5132.849999999999
+2026-07-02,Cine,Entretenimiento,-73.21,Gasto,5059.639999999999
+2026-07-03,Reembolso,Ingresos,172.78,Ingreso,5232.42
+2026-07-03,Cervecería,Entretenimiento,-69.72,Gasto,5162.7
+2026-07-04,Cine,Entretenimiento,-98.99,Gasto,5063.71
+2026-07-04,Cervecería,Entretenimiento,-49.88,Gasto,5013.83
+2026-07-05,PedidosYa,Comida,-42.67,Gasto,4971.16
+2026-07-05,Subte/Metro,Transporte,-28.89,Gasto,4942.2699999999995
+2026-07-05,Shopping,Entretenimiento,-48.92,Gasto,4893.349999999999
+2026-07-05,Cervecería,Entretenimiento,-99.77,Gasto,4793.58
+2026-07-08,Farmacia,Educación/Salud,-12.82,Gasto,4780.76
+2026-07-08,Combustible,Transporte,-14.95,Gasto,4765.8099999999995
+2026-07-08,Cine,Entretenimiento,-72.92,Gasto,4692.889999999999
+2026-07-09,PedidosYa,Comida,-37.78,Gasto,4655.11
+2026-07-09,Supermercado,Comida,-13.72,Gasto,4641.389999999999
+2026-07-10,Internet,Servicios,-20.15,Gasto,4621.24
+2026-07-11,Spotify,Servicios,-28.92,Gasto,4592.32
+2026-07-11,Uber,Transporte,-38.37,Gasto,4553.95
+2026-07-11,Cine,Entretenimiento,-88.4,Gasto,4465.549999999999
+2026-07-12,Curso Online,Educación/Salud,-21.0,Gasto,4444.549999999999
+2026-07-12,PedidosYa,Comida,-17.84,Gasto,4426.71
+2026-07-12,Cafetería,Comida,-16.7,Gasto,4410.009999999999
+2026-07-12,Cine,Entretenimiento,-85.25,Gasto,4324.759999999999
+2026-07-13,Shopping,Entretenimiento,-52.19,Gasto,4272.57
