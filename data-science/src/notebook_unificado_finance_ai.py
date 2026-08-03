@@ -4,7 +4,7 @@
 PIPELINE UNIFICADO DE DATA SCIENCE & NLP - VINAH APP
 ===============================================================================
 Autoras: Ruth & Nati (Equipo de Data Science)
-Aplicación: Vinah - Hackathon NoCountry & Alura/Oracle G9
+Aplicación: Vinnah - Hackathon NoCountry & Alura/Oracle G9
 
 Este notebook integra todo el ciclo de vida del módulo de inteligencia artificial:
 - Carga de dataset embebido en memoria (100% auto-contenido).
@@ -227,7 +227,7 @@ fig, ax = plt.subplots(figsize=(9, 7))
 cm = confusion_matrix(y_test, y_pred, labels=modelo_pipeline.classes_)
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=modelo_pipeline.classes_)
 disp.plot(cmap='Blues', xticks_rotation=45, values_format='d', ax=ax)
-plt.title('Matriz de Confusión - Clasificador NLP Vinah App', fontsize=13, fontweight='bold')
+plt.title('Matriz de Confusión - Clasificador NLP Vinnah App', fontsize=13, fontweight='bold')
 plt.tight_layout()
 plt.show()
 

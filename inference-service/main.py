@@ -1,5 +1,5 @@
 """
-Microservicio de inferencia — Team 32 (Vinah App)
+Microservicio de inferencia — Team 32 (Vinnah App)
 Carga el modelo serializado por Ciencia de Datos y expone un endpoint
 de predicción consumido por el Backend Gateway (Spring Boot).
 """
@@ -13,7 +13,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 app = FastAPI(
-    title="Servicio de Inferencia Financiera - Vinah App",
+    title="Servicio de Inferencia Financiera - Vinnah App",
     version="1.0.0",
     description="API de Clasificación de Gastos y Diagnóstico de Salud Financiera"
 )
