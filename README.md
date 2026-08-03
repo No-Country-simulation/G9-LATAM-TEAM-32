@@ -50,13 +50,18 @@ docs/                  Documentación viva del proyecto (requisitos, arquitectur
 cd data-science && pip install -r requirements.txt
 jupyter notebook notebooks/
 
-# 2. Microservicio de inferencia
-cd inference-service && pip install -r requirements.txt
+# 2. Microservicio de inferencia (Python / FastAPI)
+cd inference-service
+source .venv/bin/activate  # (o activate.fish en Fish Shell)
 uvicorn main:app --reload --port 8001
 
 # 3. Backend (Spring Boot)
 cd backend && ./mvnw spring-boot:run
 ```
+
+> 📌 **Nota para el revisor / evaluador:**  
+> La documentación e interfaz interactiva Swagger UI se encuentra en `http://localhost:8001/docs`. Para probar la API desde el navegador, **primero debes encender el microservicio en la terminal** con el comando `uvicorn main:app --reload --port 8001`. Si el servidor no está encendido en la terminal, la página dirá *"No se puede conectar"*.
+
 
 ## Ejemplo de uso de la API
 
