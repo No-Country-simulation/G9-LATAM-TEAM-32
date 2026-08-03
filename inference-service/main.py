@@ -9,7 +9,9 @@ import unicodedata
 from pathlib import Path
 from typing import List, Optional
 import joblib
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, UploadFile, File
+import pandas as pd
+import io
 from pydantic import BaseModel, Field
 
 app = FastAPI(
@@ -264,3 +266,66 @@ def predict(solicitud: SolicitudAnalisis):
         'recomendaciones': recomendaciones,
         'detalles_transacciones_procesadas': detalles_transacciones
     }
+
+@app.post("/analizar-excel")
+async def analizar_excel(file: UploadFile = File(...)):
+    """
+    Endpoint interactivo: Permite subir un archivo Excel (.xlsx) o CSV de gastos e ingresos,
+    clasifica cada transacción con la IA en tiempo real y devuelve el reporte completo.
+    """
+    if modelo_ia is None:
+        raise HTTPException(status_code=500, detail="El modelo de IA no está cargado en el servidor.")
+    
+    if not (file.filename.endswith('.xlsx') or file.filename.endswith('.xls') or file.filename.endswith('.csv')):
+        raise HTTPException(status_code=400, detail="Formato de archivo no soportado. Debe ser .xlsx o .csv")
+    
+    try:
+        content = await file.read()
+        if file.filename.endswith('.csv'):
+            df = pd.read_csv(io.BytesIO(content))
+        else:
+            df = pd.read_excel(io.BytesIO(content))
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Error al leer el archivo Excel/CSV: {str(e)}")
+    
+    # Mapeo flexible de columnas
+    col_desc = next((c for c in df.columns if str(c).lower() in ['descripcion', 'description', 'detalle', 'concepto']), None)
+    col_monto = next((c for c in df.columns if str(c).lower() in ['monto', 'amount', 'valor', 'precio']), None)
+    col_tipo = next((c for c in df.columns if str(c).lower() in ['tipo', 'type', 'transaction type']), None)
+    
+    if not col_desc or not col_monto:
+        raise HTTPException(status_code=400, detail=f"Columnas no reconocidas en el Excel. Debe tener 'Descripcion' y 'Monto'. Columnas halladas: {list(df.columns)}")
+    
+    transacciones_lista = []
+    ingreso_total = 0.0
+    
+    for _, row in df.iterrows():
+        desc = str(row[col_desc]) if pd.notna(row[col_desc]) else ''
+        try:
+            monto_val = float(row[col_monto])
+        except Exception:
+            monto_val = 0.0
+            
+        tipo_val = str(row[col_tipo]).lower() if col_tipo and pd.notna(row[col_tipo]) else 'gasto'
+        
+        if 'ingreso' in tipo_val or 'credit' in tipo_val or 'paycheck' in desc.lower() or 'sueldo' in desc.lower():
+            ingreso_total += monto_val
+        else:
+            transacciones_lista.append(Transaccion(descripcion=desc, valor=monto_val, moneda="ARS"))
+            
+    if ingreso_total <= 0:
+        ingreso_total = 1800000.0  # Fallback a un ingreso mensual estándar si no se especificaron ingresos
+        
+    solicitud = SolicitudAnalisis(
+        ingreso_mensual=ingreso_total,
+        nivel_endeudamiento=30.0,
+        frecuencia_ahorro="Media",
+        moneda_local_usuario="ARS",
+        transacciones=transacciones_lista
+    )
+    
+    resultado = predict(solicitud)
+    resultado['nombre_archivo_procesado'] = file.filename
+    resultado['ingreso_total_detectado_excel'] = round(ingreso_total, 2)
+    return resultado
+
