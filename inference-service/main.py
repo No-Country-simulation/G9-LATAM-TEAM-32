@@ -77,6 +77,22 @@ def convertir_divisa(valor: float, moneda_origen: str = 'USD', moneda_destino: s
     except Exception:
         return 0.0, 1.0
 
+def obtener_accion_categoria(cat: str, monto: float, m_local: str) -> str:
+    fmt = f"{monto:,.0f} {m_local}".replace(',', '.')
+    c = cat.lower().strip()
+    if c == 'vivienda':
+        return f"revisar y optimizar los gastos fijos de vivienda (alquiler/expensas: {fmt})"
+    elif c in ['servicios y comunicaciones', 'servicios']:
+        return f"revisar abonos y planes de servicios o telefonía ({fmt})"
+    elif c == 'obligaciones y ahorro':
+        return f"reestructurar cuotas de tarjetas o préstamos ({fmt})"
+    elif c in ['ocio y entretenimiento', 'ocio']:
+        return f"reducir compras prescindibles en ocio y salidas ({fmt})"
+    elif c == 'alimentacion':
+        return f"planificar mejor las compras de supermercado y alimentos ({fmt})"
+    else:
+        return f"reducir egresos en la categoría {c} ({fmt})"
+
 def generar_recomendaciones_personalizadas(perfil, score_riesgo, ingreso_local, endeudamiento, frecuencia_ahorro, resumen_gastos, total_gastado, ratio_gasto, m_local):
     recomendaciones = []
     
@@ -90,37 +106,51 @@ def generar_recomendaciones_personalizadas(perfil, score_riesgo, ingreso_local, 
     monto_obligaciones = resumen_gastos.get('obligaciones y ahorro', 0.0)
     monto_vivienda = resumen_gastos.get('vivienda', 0.0)
     monto_transporte = resumen_gastos.get('transporte', 0.0)
+    
+    accion_cat = obtener_accion_categoria(cat_dominante, monto_cat, m_local)
 
     if perfil == 'En riesgo':
         if end_num > 40:
             if monto_obligaciones > 0:
-                recomendaciones.append(f'⚠️ Nivel de deuda elevado ({end_num}%): Revisa compromisos de préstamos personales, tarjetas o créditos bancarios ({monto_obligaciones:,.0f} {m_local}). Consolida pasivos para reducir cuotas.')
+                fmt_ob = f"{monto_obligaciones:,.0f} {m_local}".replace(',', '.')
+                recomendaciones.append(f'⚠️ Nivel de deuda elevado ({end_num}%): Revisa compromisos de préstamos personales, tarjetas o créditos bancarios ({fmt_ob}). Consolida pasivos para reducir cuotas.')
             elif monto_vivienda > 0:
-                recomendaciones.append(f'⚠️ Tu crédito hipotecario/alquiler representa {monto_vivienda:,.0f} {m_local}. Evita asumir nuevos compromisos o préstamos mientras regularizas tu presupuesto.')
+                fmt_viv = f"{monto_vivienda:,.0f} {m_local}".replace(',', '.')
+                recomendaciones.append(f'⚠️ Tu costo de vivienda/alquiler representa {fmt_viv}. Evita asumir nuevos compromisos o préstamos mientras regularizas tu presupuesto.')
             else:
                 recomendaciones.append(f'⚠️ Nivel de endeudamiento elevado del {end_num}%. Prioriza cancelar deudas pendientes con préstamos o terceros.')
         elif ratio_num > 80:
-            recomendaciones.append(f'🚨 Tus gastos representan el {ratio_num}% de tus ingresos. Es urgente congelar nuevos créditos y recortar compras en {cat_dominante} ({monto_cat:,.0f} {m_local}).')
+            recomendaciones.append(f'🚨 Tus gastos representan el {ratio_num}% de tus ingresos. Es urgente congelar nuevos créditos y {accion_cat}.')
         else:
-            recomendaciones.append(f'⚠️ Riesgo financiero elevado. Reduce egresos en la categoría principal "{cat_dominante}" ({pct_cat}% del total).')
+            recomendaciones.append(f'⚠️ Riesgo financiero elevado. Se sugiere {accion_cat} (representa el {pct_cat}% del total).')
             
         if str(frecuencia_ahorro).lower() in ['baja', 'ninguna', '0']:
             recomendaciones.append('Construye un fondo de reserva de emergencia antes de solicitar préstamos adicionales.')
         else:
-            recomendaciones.append(f'Limita compras en la categoría {cat_dominante} para recuperar tu superávit mensual.')
+            if cat_dominante == 'vivienda':
+                recomendaciones.append('Evalúa alternativas para estabilizar los gastos fijos del hogar y recuperar tu superávit mensual.')
+            elif cat_dominante in ['servicios y comunicaciones', 'servicios']:
+                recomendaciones.append('Optimiza tus planes de telefonía e internet para reducir la carga fija mensual.')
+            elif cat_dominante == 'obligaciones y ahorro':
+                recomendaciones.append('Solicita refinanciación de cuotas o consolidación de deudas para aliviar los compromisos del mes.')
+            else:
+                recomendaciones.append(f'Modera egresos en la categoría {cat_dominante} para recuperar tu superávit mensual.')
 
     elif perfil == 'En observacion':
         if end_num >= 25:
             if monto_vivienda > monto_obligaciones and monto_vivienda > 0:
-                recomendaciones.append(f'💡 Tu cuota de vivienda/préstamo del hogar ({monto_vivienda:,.0f} {m_local}) absorbe parte importante de tus ingresos. Mantén acotados los préstamos personales.')
+                fmt_viv = f"{monto_vivienda:,.0f} {m_local}".replace(',', '.')
+                recomendaciones.append(f'💡 Tu costo de vivienda/alquiler ({fmt_viv}) absorbe parte importante de tus ingresos. Mantén acotados los préstamos personales.')
             elif monto_transporte > 0 and cat_dominante == 'transporte':
-                recomendaciones.append(f'💡 Los gastos de vehículo/cuota de transporte representan {monto_transporte:,.0f} {m_local}. Revisa gastos asociados como seguro o mantenimiento.')
+                fmt_tr = f"{monto_transporte:,.0f} {m_local}".replace(',', '.')
+                recomendaciones.append(f'💡 Los gastos de transporte representan {fmt_tr}. Revisa gastos asociados como seguro, nafta o mantenimiento.')
             else:
                 recomendaciones.append(f'💡 Tu nivel de endeudamiento es del {end_num}%. Limita el uso de tarjeta de crédito o la solicitud de préstamos a plazo.')
         elif cat_dominante in ['ocio y entretenimiento', 'alimentacion'] and pct_cat > 30:
-            recomendaciones.append(f'💡 La categoría "{cat_dominante}" representa el {pct_cat}% de tus gastos ({monto_cat:,.0f} {m_local}). Fija un límite semanal para compras discretas.')
+            fmt_c = f"{monto_cat:,.0f} {m_local}".replace(',', '.')
+            recomendaciones.append(f'💡 La categoría "{cat_dominante}" representa el {pct_cat}% de tus gastos ({fmt_c}). Fija un presupuesto semanal para consumos discretos.')
         else:
-            recomendaciones.append(f'💡 Tus gastos suman el {ratio_num}% de tus ingresos. Controla pequeños consumos en {cat_dominante}.')
+            recomendaciones.append(f'💡 Tus gastos suman el {ratio_num}% de tus ingresos. Se recomienda {accion_cat}.')
             
         if str(frecuencia_ahorro).lower() in ['baja', 'media']:
             recomendaciones.append('Automatiza la transferencia del 10% de tus ingresos a un fondo de ahorro apenas cobres tu sueldo.')
@@ -130,7 +160,7 @@ def generar_recomendaciones_personalizadas(perfil, score_riesgo, ingreso_local, 
     else:  # Perfil Saludable
         recomendaciones.append(f'✅ ¡Excelente salud financiera! Mantienes tus gastos en un {ratio_num}% de tus ingresos y compromisos crediticios sostenibles ({end_num}%).')
         if pct_cat > 0:
-            recomendaciones.append(f'📈 Con tu capacidad de ahorro actual, explora herramientas como Fondos Comunes o Plazos Fijos para hacer crecer tu capital excedente.')
+            recomendaciones.append('📈 Con tu capacidad de ahorro actual, explora herramientas como Fondos Comunes o Plazos Fijos para hacer crecer tu capital excedente.')
 
     return recomendaciones[:2]
 
