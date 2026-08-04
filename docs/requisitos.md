@@ -6,16 +6,17 @@
 
 | ID | Requisito | Estado |
 |---|---|---|
-| FR-01 | Clasificar automáticamente transacciones en categorías (Alimentación, Transporte, Salud, Vivienda, Educación, Ocio, Servicios, otras). | ⬜ Pendiente |
-| FR-02 | Generar una evaluación del perfil financiero del usuario (ej.: Saludable / En observación / En riesgo). | ⬜ Pendiente |
-| FR-03 | Generar recomendaciones simples y objetivas basadas en los resultados. | ⬜ Pendiente |
-| FR-04 | Exponer `POST /analisis-financiero` (ingreso, endeudamiento, ahorro, transacciones) → perfil, probabilidad, resumen, recomendaciones. | ⬜ Pendiente |
-| FR-05 | Validar los datos de entrada y manejar errores de forma explícita. | ⬜ Pendiente |
-| FR-06 | Documentar todos los endpoints (OpenAPI/Swagger). | ⬜ Pendiente |
-| FR-07 | Cargar y usar un modelo entrenado y serializado desde el backend. | ⬜ Pendiente |
-| FR-08 | Alertar sobre gastos elevados. | ⬜ Pendiente |
-| FR-09 | Presentar como mínimo tres ejemplos reales de uso de la API. | ⬜ Pendiente |
-| FR-10 | Realizar un CRUD de los ingresos y gastos. | ⬜ Pendiente |  
+| FR-01 | Clasificar automáticamente transacciones en categorías (Alimentación, Transporte, Salud, Vivienda, Educación, Ocio, Servicios, otras). | ✅ Completado (Data Science NLP) |
+| FR-02 | Generar una evaluación del perfil financiero del usuario (ej.: Saludable / En observación / En riesgo). | ✅ Completado (Motor Experto) |
+| FR-03 | Generar recomendaciones simples y objetivas basadas en los resultados. | ✅ Completado (Motor Experto) |
+| FR-04 | Exponer `POST /analisis-financiero` (ingreso, endeudamiento, ahorro, transacciones) → perfil, probabilidad, resumen, recomendaciones. | ✅ Completado (FastAPI Microservicio) |
+| FR-05 | Validar los datos de entrada y manejar errores de forma explícita. | ✅ Completado (Pydantic / FastAPI) |
+| FR-06 | Documentar todos los endpoints (OpenAPI/Swagger). | ✅ Completado (Swagger /docs) |
+| FR-07 | Cargar y usar un modelo entrenado y serializado desde el backend. | ✅ Completado (modelo_ia.pkl) |
+| FR-08 | Alertar sobre gastos elevados. | ✅ Completado (Motor Experto) |
+| FR-09 | Presentar como mínimo tres ejemplos reales de uso de la API. | ⬜ Pendiente (Demo) |
+| FR-10 | Realizar un CRUD de los ingresos y gastos. | ⬜ Pendiente |
+
 
 ## Requisitos no funcionales (propuestos — marco ISO/IEC 25010)
 
