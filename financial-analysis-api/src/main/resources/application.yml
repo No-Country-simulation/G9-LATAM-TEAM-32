@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: financial-analysis-api
+
+  # Configuracion JPA + Oracle (OCI Autonomous DB)
+  datasource:
+    url: jdbc:oracle:thin:@${OCI_DB_HOST:localhost}:1521/${OCI_DB_SERVICE:XEPDB1}
+    username: ${OCI_DB_USER:app_user}
+    password: ${OCI_DB_PASSWORD:changeme}
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+
+  # Limite de subida CSV
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
+
+# Servicio Python (modelo de ML)
+python:
+  service:
+    url: http://localhost:8001
+
+# JWT
+jwt:
+  secret: ${JWT_SECRET:clave-secreta-desarrollo-cambiar-en-produccion-min-32-chars!!}
+  expiracion-ms: 86400000  # 24 horas
+
+# OCI Object Storage (opcional, para almacenar CSVs)
+oci:
+  object-storage:
+    namespace: ${OCI_OS_NAMESPACE:}
+    bucket: ${OCI_OS_BUCKET:}
+    region: ${OCI_OS_REGION:sa-saopaulo-1}
+
+logging:
+  level:
+    root: INFO
+    financial_analysis_api: DEBUG

@@ -1,0 +1,19 @@
+# Configuracion de test: H2 en memoria en lugar de Oracle
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+jwt:
+  secret: clave-secreta-test-min-32-caracteres-necesarios!!
+  expiracion-ms: 3600000
+
+python:
+  service:
+    url: http://localhost:8001
