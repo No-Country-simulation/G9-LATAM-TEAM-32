@@ -25,6 +25,8 @@ public class AnalisisFinancieroRequestDTO {
     @NotNull(message = "La frecuencia de ahorro es obligatoria")
     private String frecuenciaAhorro;
 
+    private String monedaLocalUsuario = "COP";
+
     @NotEmpty(message = "Debe incluir al menos una transaccion")
     @Valid
     private List<TransaccionDTO> transacciones;

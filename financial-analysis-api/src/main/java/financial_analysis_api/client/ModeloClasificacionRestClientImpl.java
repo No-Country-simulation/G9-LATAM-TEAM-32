@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
+import org.springframework.web.reactive.function.client.WebClientResponseException;
 
 import java.util.List;
 import java.util.Map;
@@ -19,10 +20,9 @@ public class ModeloClasificacionRestClientImpl implements ModeloClasificacionCli
 
     private final WebClient webClient;
 
-    public ModeloClasificacionRestClientImpl(@Value("${python.service.url}") String pythonUrl) {
-        this.webClient = WebClient.builder()
-                .baseUrl(pythonUrl)
-                .build();
+    public ModeloClasificacionRestClientImpl(WebClient.Builder webClientBuilder,
+                                             @Value("${python.service.url}") String pythonUrl) {
+        this.webClient = webClientBuilder.baseUrl(pythonUrl).build();
     }
 
     @Override
@@ -34,6 +34,10 @@ public class ModeloClasificacionRestClientImpl implements ModeloClasificacionCli
                     .retrieve()
                     .bodyToMono(AnalisisFinancieroResponseDTO.class)
                     .block();
+        } catch (WebClientResponseException e) {
+            throw new ModeloClasificacionException(
+                    "Error al conectar con el servicio de analisis financiero: "
+                            + e.getStatusCode() + " - " + e.getResponseBodyAsString());
         } catch (Exception e) {
             throw new ModeloClasificacionException("Error al conectar con el servicio de analisis financiero: " + e.getMessage());
         }
