@@ -1,5 +1,6 @@
 package financial_analysis_api.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
@@ -20,5 +21,6 @@ public class TransaccionDTO {
     private BigDecimal valor;
 
     @NotNull(message = "El tipo de divisa debe ser obligatoria")
+    @JsonProperty("moneda")
     private String tipoDivisa;
 }

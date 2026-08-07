@@ -54,4 +54,5 @@ public class AnalisisFinancieroServiceImpl implements AnalisisFinancieroService 
         analisisRepository.save(entity);
         return respuesta;
     }
+
 }

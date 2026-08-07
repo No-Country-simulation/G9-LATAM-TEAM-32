@@ -1,0 +1,4838 @@
+[
+  {
+    "Description": "Amazon",
+    "Amount": 11.11,
+    "Category": "Shopping",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 24.22,
+    "Category": "Restaurants",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 2298.09,
+    "Category": "Credit Card Payment",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 25.85,
+    "Category": "Restaurants",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 18.45,
+    "Category": "Home Improvement",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 45.0,
+    "Category": "Utilities",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 15.38,
+    "Category": "Home Improvement",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.46,
+    "Category": "Mobile Phone",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 34.87,
+    "Category": "Gas & Fuel",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 43.54,
+    "Category": "Groceries",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 32.91,
+    "Category": "Fast Food",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 39.05,
+    "Category": "Shopping",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 44.19,
+    "Category": "Groceries",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 64.11,
+    "Category": "Restaurants",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 50.21,
+    "Category": "Shopping",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 554.99,
+    "Category": "Credit Card Payment",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 309.81,
+    "Category": "Credit Card Payment",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 554.99,
+    "Category": "Credit Card Payment",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 17.38,
+    "Category": "Home Improvement",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 309.81,
+    "Category": "Credit Card Payment",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 69.99,
+    "Category": "Internet",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 30.42,
+    "Category": "Gas & Fuel",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 25.0,
+    "Category": "Restaurants",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 17.62,
+    "Category": "Restaurants",
+    "Month": "2018-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 27.79,
+    "Category": "Groceries",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 11.11,
+    "Category": "Shopping",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Japanese Restaurant",
+    "Amount": 57.02,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 145.14,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 154.13,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 154.13,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 65.0,
+    "Category": "Utilities",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Bojangles",
+    "Amount": 10.66,
+    "Category": "Fast Food",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 106.8,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 36.47,
+    "Category": "Gas & Fuel",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.52,
+    "Category": "Mobile Phone",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 14.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 10.0,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.0,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 35.95,
+    "Category": "Groceries",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Mexican Restaurant",
+    "Amount": 23.51,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 4.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 765.37,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 156.11,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 765.37,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 85.52,
+    "Category": "Restaurants",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Gas Station",
+    "Amount": 32.21,
+    "Category": "Gas & Fuel",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 156.11,
+    "Category": "Credit Card Payment",
+    "Month": "2018-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 32.07,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 23.74,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.69,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "BBQ Restaurant",
+    "Amount": 42.24,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 761.59,
+    "Category": "Credit Card Payment",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 761.59,
+    "Category": "Credit Card Payment",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.5,
+    "Category": "Coffee Shops",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "BP",
+    "Amount": 34.9,
+    "Category": "Gas & Fuel",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 52.0,
+    "Category": "Utilities",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 20.72,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.09,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 19.35,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.52,
+    "Category": "Mobile Phone",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 45.75,
+    "Category": "Shopping",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 22.5,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.49,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.5,
+    "Category": "Coffee Shops",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 19.5,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 23.34,
+    "Category": "Fast Food",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Mediterranean Restaurant",
+    "Amount": 36.48,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 14.97,
+    "Category": "Shopping",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "BP",
+    "Amount": 30.55,
+    "Category": "Gas & Fuel",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 559.91,
+    "Category": "Credit Card Payment",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 559.91,
+    "Category": "Credit Card Payment",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 11.76,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 16.06,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 24.98,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Steakhouse",
+    "Amount": 17.64,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 9.09,
+    "Category": "Groceries",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Belgian Restaurant",
+    "Amount": 38.32,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Chili's",
+    "Amount": 24.74,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 41.16,
+    "Category": "Restaurants",
+    "Month": "2018-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 80.79,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 59.48,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 817.14,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 817.14,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 82.36,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 13.89,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Amazon Video",
+    "Amount": 6.41,
+    "Category": "Movies & Dvds",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 363.08,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 363.08,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Chevron",
+    "Amount": 4.58,
+    "Category": "Gas & Fuel",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Tiny Deli",
+    "Amount": 9.76,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Irish Pub",
+    "Amount": 22.0,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Blue Sky Market",
+    "Amount": 6.48,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.52,
+    "Category": "Mobile Phone",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 7.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "BP",
+    "Amount": 37.98,
+    "Category": "Gas & Fuel",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 10.66,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 11.61,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 41.0,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 24.22,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 4.32,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 35.15,
+    "Category": "Restaurants",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 21.32,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 42.7,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 224.7,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 41.34,
+    "Category": "Shopping",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 210.79,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 769.72,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1216.94,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1216.94,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 769.72,
+    "Category": "Credit Card Payment",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 22.98,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "QuikTrip",
+    "Amount": 39.0,
+    "Category": "Gas & Fuel",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 51.05,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 68.47,
+    "Category": "Home Improvement",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.09,
+    "Category": "Groceries",
+    "Month": "2018-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 49.72,
+    "Category": "Shopping",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 42.23,
+    "Category": "Groceries",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Bojangles",
+    "Amount": 7.27,
+    "Category": "Fast Food",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 20.52,
+    "Category": "Fast Food",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 22.37,
+    "Category": "Home Improvement",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 117.69,
+    "Category": "Shopping",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 601.4,
+    "Category": "Credit Card Payment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 601.4,
+    "Category": "Credit Card Payment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 111.18,
+    "Category": "Mobile Phone",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 57.32,
+    "Category": "Groceries",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Mike's Construction Co.",
+    "Amount": 8000.0,
+    "Category": "Home Improvement",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Liquor Store",
+    "Amount": 27.77,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 33.3,
+    "Category": "Gas & Fuel",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 78.0,
+    "Category": "Restaurants",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 67.63,
+    "Category": "Groceries",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 29.0,
+    "Category": "Haircut",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 6.41,
+    "Category": "Shopping",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 207.08,
+    "Category": "Credit Card Payment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 31.0,
+    "Category": "Groceries",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 23.26,
+    "Category": "Restaurants",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 283.07,
+    "Category": "Credit Card Payment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 26.04,
+    "Category": "Restaurants",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 32.5,
+    "Category": "Shopping",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 283.07,
+    "Category": "Credit Card Payment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "BP",
+    "Amount": 39.44,
+    "Category": "Gas & Fuel",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Movie Theater",
+    "Amount": 9.62,
+    "Category": "Entertainment",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 91.03,
+    "Category": "Groceries",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Movie Theater",
+    "Amount": 20.0,
+    "Category": "Movies & Dvds",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "Movie Theater",
+    "Amount": 6.25,
+    "Category": "Movies & Dvds",
+    "Month": "2018-05"
+  },
+  {
+    "Description": "BP",
+    "Amount": 38.63,
+    "Category": "Gas & Fuel",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 6.11,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 235.18,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 466.36,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Italian Restaurant",
+    "Amount": 65.81,
+    "Category": "Restaurants",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 235.18,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 24.12,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 4.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Chick-Fil-A",
+    "Amount": 16.18,
+    "Category": "Fast Food",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 9.56,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 46.01,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 12.55,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.46,
+    "Category": "Mobile Phone",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 283.44,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 283.44,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 7.02,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 22.66,
+    "Category": "Fast Food",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 13.9,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 38.52,
+    "Category": "Gas & Fuel",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 2.69,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 89.45,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 89.45,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.5,
+    "Category": "Restaurants",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 74.97,
+    "Category": "Shopping",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 942.76,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 942.76,
+    "Category": "Credit Card Payment",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 9.62,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.5,
+    "Category": "Coffee Shops",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 22.66,
+    "Category": "Fast Food",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 7.57,
+    "Category": "Groceries",
+    "Month": "2018-06"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Movie Theater",
+    "Amount": 25.0,
+    "Category": "Movies & Dvds",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 36.44,
+    "Category": "Restaurants",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "BP",
+    "Amount": 34.48,
+    "Category": "Gas & Fuel",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 44.25,
+    "Category": "Groceries",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 212.32,
+    "Category": "Shopping",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Amazon Video",
+    "Amount": 6.41,
+    "Category": "Movies & Dvds",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 259.87,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 242.16,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 259.87,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 242.16,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.39,
+    "Category": "Groceries",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.46,
+    "Category": "Mobile Phone",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Go Mart",
+    "Amount": 33.51,
+    "Category": "Gas & Fuel",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Circle K",
+    "Amount": 36.24,
+    "Category": "Gas & Fuel",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Wendy's",
+    "Amount": 15.23,
+    "Category": "Fast Food",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Irish Restaurant",
+    "Amount": 28.54,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 61.43,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 102.88,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 102.88,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 28.93,
+    "Category": "Groceries",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 61.43,
+    "Category": "Credit Card Payment",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 9.58,
+    "Category": "Fast Food",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 26.59,
+    "Category": "Restaurants",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Conoco",
+    "Amount": 33.67,
+    "Category": "Gas & Fuel",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 7.61,
+    "Category": "Groceries",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 34.38,
+    "Category": "Restaurants",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 6.6,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-07"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 816.27,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 40.44,
+    "Category": "Gas & Fuel",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 6.27,
+    "Category": "Groceries",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 76.47,
+    "Category": "Shopping",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.4,
+    "Category": "Mobile Phone",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Chick-Fil-A",
+    "Amount": 13.67,
+    "Category": "Fast Food",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Valero",
+    "Amount": 33.66,
+    "Category": "Gas & Fuel",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 269.56,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 159.38,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 41.07,
+    "Category": "Gas & Fuel",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 269.56,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 14.98,
+    "Category": "Shopping",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 23.47,
+    "Category": "Shopping",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 34.18,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 99.76,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 99.76,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 34.18,
+    "Category": "Credit Card Payment",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 42.31,
+    "Category": "Restaurants",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 35.65,
+    "Category": "Gas & Fuel",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 11.64,
+    "Category": "Groceries",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-08"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 47.4,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 109.83,
+    "Category": "Shopping",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 687.29,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 687.29,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1247.44,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 18.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "BP",
+    "Amount": 38.86,
+    "Category": "Gas & Fuel",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 7.87,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 47.16,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.4,
+    "Category": "Mobile Phone",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 134.34,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.17,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 8.8,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 4.32,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 47.38,
+    "Category": "Shopping",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 69.4,
+    "Category": "Home Improvement",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 6.83,
+    "Category": "Home Improvement",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Sushi Restaurant",
+    "Amount": 48.64,
+    "Category": "Restaurants",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 5.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Exxon",
+    "Amount": 38.0,
+    "Category": "Gas & Fuel",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Valero",
+    "Amount": 40.71,
+    "Category": "Gas & Fuel",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 128.12,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 284.96,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 284.96,
+    "Category": "Credit Card Payment",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 13.36,
+    "Category": "Groceries",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 23.26,
+    "Category": "Restaurants",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "German Restaurant",
+    "Amount": 46.7,
+    "Category": "Restaurants",
+    "Month": "2018-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 128.12,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 15.66,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 124.03,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 124.03,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1209.18,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 27.0,
+    "Category": "Restaurants",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 38.06,
+    "Category": "Gas & Fuel",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 80.65,
+    "Category": "Home Improvement",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 31.2,
+    "Category": "Home Improvement",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 19.98,
+    "Category": "Shopping",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 53.68,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.4,
+    "Category": "Mobile Phone",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 33.55,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 45.24,
+    "Category": "Home Improvement",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.0,
+    "Category": "Restaurants",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 544.37,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 353.83,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 353.83,
+    "Category": "Credit Card Payment",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "BP",
+    "Amount": 34.66,
+    "Category": "Gas & Fuel",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 7.57,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 29.98,
+    "Category": "Shopping",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 25.4,
+    "Category": "Restaurants",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 12.71,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Seafood Restaurant",
+    "Amount": 14.75,
+    "Category": "Food & Dining",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 92.49,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Italian Restaurant",
+    "Amount": 54.0,
+    "Category": "Restaurants",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-10"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 262.51,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 262.51,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1209.18,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Pizza Place",
+    "Amount": 23.66,
+    "Category": "Fast Food",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 36.51,
+    "Category": "Gas & Fuel",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 53.95,
+    "Category": "Shopping",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 27.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Chick-Fil-A",
+    "Amount": 14.19,
+    "Category": "Fast Food",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Food Truck",
+    "Amount": 24.4,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.18,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 22.33,
+    "Category": "Restaurants",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 4.8,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 37.43,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.15,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.54,
+    "Category": "Mobile Phone",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 22.8,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 15.47,
+    "Category": "Home Improvement",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 6.4,
+    "Category": "Home Improvement",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 23.26,
+    "Category": "Restaurants",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 20.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "QuikTrip",
+    "Amount": 29.15,
+    "Category": "Gas & Fuel",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 10.02,
+    "Category": "Home Improvement",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 421.96,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 37.41,
+    "Category": "Home Improvement",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 16.8,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 74.99,
+    "Category": "Internet",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Movie Theater",
+    "Amount": 17.0,
+    "Category": "Movies & Dvds",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 28.4,
+    "Category": "Restaurants",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 582.99,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 751.5,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 582.99,
+    "Category": "Credit Card Payment",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 6.27,
+    "Category": "Groceries",
+    "Month": "2018-11"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.0,
+    "Category": "Restaurants",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.13,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "BP",
+    "Amount": 30.03,
+    "Category": "Gas & Fuel",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 148.15,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1209.18,
+    "Category": "Mortgage & Rent",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Latin Restaurant",
+    "Amount": 20.65,
+    "Category": "Fast Food",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Movies & Dvds",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 21.38,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 13.48,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 40.0,
+    "Category": "Utilities",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 12.64,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 10.29,
+    "Category": "Restaurants",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 89.54,
+    "Category": "Mobile Phone",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 27.0,
+    "Category": "Restaurants",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 21.39,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 17.1,
+    "Category": "Home Improvement",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 63.0,
+    "Category": "Food & Dining",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "BP",
+    "Amount": 20.01,
+    "Category": "Gas & Fuel",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 311.02,
+    "Category": "Credit Card Payment",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 311.02,
+    "Category": "Credit Card Payment",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 56.52,
+    "Category": "Restaurants",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 49.99,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 41.72,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 24.3,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 43.01,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 464.03,
+    "Category": "Credit Card Payment",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 30.38,
+    "Category": "Gas & Fuel",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 464.03,
+    "Category": "Credit Card Payment",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "New York Deli",
+    "Amount": 21.38,
+    "Category": "Fast Food",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 22.14,
+    "Category": "Home Improvement",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 28.0,
+    "Category": "Home Improvement",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 38.4,
+    "Category": "Home Improvement",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Chick-Fil-A",
+    "Amount": 56.07,
+    "Category": "Fast Food",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 32.47,
+    "Category": "Gas & Fuel",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 7.48,
+    "Category": "Gas & Fuel",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.99,
+    "Category": "Internet",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 44.99,
+    "Category": "Shopping",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 12.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 14.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 860.05,
+    "Category": "Credit Card Payment",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 55.04,
+    "Category": "Groceries",
+    "Month": "2018-12"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 499.6,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 42.1,
+    "Category": "Shopping",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 23.49,
+    "Category": "Restaurants",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 45.0,
+    "Category": "Utilities",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 491.45,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 491.45,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 281.84,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 58.79,
+    "Category": "Groceries",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 28.92,
+    "Category": "Gas & Fuel",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 6.06,
+    "Category": "Groceries",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 277.99,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 277.99,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 21.06,
+    "Category": "Groceries",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 11.7,
+    "Category": "Shopping",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 4.21,
+    "Category": "Shopping",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1900.0,
+    "Category": "Credit Card Payment",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 31.32,
+    "Category": "Gas & Fuel",
+    "Month": "2019-01"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Roadside Diner",
+    "Amount": 9.47,
+    "Category": "Restaurants",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 86.97,
+    "Category": "Home Improvement",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Television",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 65.0,
+    "Category": "Utilities",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 27.47,
+    "Category": "Restaurants",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 133.95,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "BP",
+    "Amount": 24.01,
+    "Category": "Gas & Fuel",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 30.54,
+    "Category": "Groceries",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 8.21,
+    "Category": "Groceries",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 207.47,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 207.47,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 4.59,
+    "Category": "Groceries",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 8.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 32.75,
+    "Category": "Restaurants",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 37.45,
+    "Category": "Shopping",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 574.84,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 292.54,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 292.54,
+    "Category": "Credit Card Payment",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 46.96,
+    "Category": "Groceries",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "BP",
+    "Amount": 33.8,
+    "Category": "Gas & Fuel",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Roadside Diner",
+    "Amount": 25.77,
+    "Category": "Restaurants",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 32.07,
+    "Category": "Groceries",
+    "Month": "2019-02"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 92.04,
+    "Category": "Groceries",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Television",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 7.0,
+    "Category": "Restaurants",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 491.86,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "BP",
+    "Amount": 34.08,
+    "Category": "Gas & Fuel",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 27.17,
+    "Category": "Shopping",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 49.0,
+    "Category": "Utilities",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Bakery Place",
+    "Amount": 3.02,
+    "Category": "Restaurants",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 532.86,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 301.79,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 305.27,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 301.79,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.0,
+    "Category": "Restaurants",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Best Buy",
+    "Amount": 320.99,
+    "Category": "Electronics & Software",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 16.23,
+    "Category": "Groceries",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.84,
+    "Category": "Shopping",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "BP",
+    "Amount": 37.51,
+    "Category": "Gas & Fuel",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 5.2,
+    "Category": "Coffee Shops",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 16.04,
+    "Category": "Shopping",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 49.63,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 4.46,
+    "Category": "Groceries",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 12.84,
+    "Category": "Coffee Shops",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 957.6,
+    "Category": "Credit Card Payment",
+    "Month": "2019-03"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1552.65,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 600.51,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 35.9,
+    "Category": "Shopping",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 11.76,
+    "Category": "Television",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 27.54,
+    "Category": "Shopping",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 436.75,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.7,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Best Buy",
+    "Amount": 44.93,
+    "Category": "Electronics & Software",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 41.34,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "QuikTrip",
+    "Amount": 38.94,
+    "Category": "Gas & Fuel",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 16.87,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Vietnamese Restaurant",
+    "Amount": 20.64,
+    "Category": "Restaurants",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 604.32,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 458.1,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 604.32,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.89,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 14.4,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 64.52,
+    "Category": "Restaurants",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 29.56,
+    "Category": "Home Improvement",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 40.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 268.96,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 14.74,
+    "Category": "Restaurants",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 268.96,
+    "Category": "Credit Card Payment",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "BP",
+    "Amount": 39.08,
+    "Category": "Gas & Fuel",
+    "Month": "2019-04"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 758.07,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 13.9,
+    "Category": "Television",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 16.94,
+    "Category": "Shopping",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 38.56,
+    "Category": "Shopping",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Best Buy",
+    "Amount": 331.69,
+    "Category": "Electronics & Software",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Target",
+    "Amount": 3.2,
+    "Category": "Shopping",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Best Buy",
+    "Amount": 21.39,
+    "Category": "Electronics & Software",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 480.88,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "QuikTrip",
+    "Amount": 35.24,
+    "Category": "Gas & Fuel",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 98.19,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 23.11,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 2.02,
+    "Category": "Groceries",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 575.33,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 415.47,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 32.53,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 765.68,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 27.96,
+    "Category": "Home Improvement",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.0,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "QuikTrip",
+    "Amount": 36.76,
+    "Category": "Gas & Fuel",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 30.99,
+    "Category": "Home Improvement",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Mexican Restaurant",
+    "Amount": 34.33,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 765.68,
+    "Category": "Credit Card Payment",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 34.82,
+    "Category": "Restaurants",
+    "Month": "2019-05"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 260.95,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 13.9,
+    "Category": "Television",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 23.0,
+    "Category": "Groceries",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Mexican Restaurant",
+    "Amount": 23.24,
+    "Category": "Restaurants",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.64,
+    "Category": "Groceries",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 458.56,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 152.72,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 152.72,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 10.69,
+    "Category": "Groceries",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "BP",
+    "Amount": 33.16,
+    "Category": "Gas & Fuel",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 15.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 41.83,
+    "Category": "Gas & Fuel",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 375.26,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Mike's Construction Co.",
+    "Amount": 9200.0,
+    "Category": "Home Improvement",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 100.68,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 100.68,
+    "Category": "Credit Card Payment",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2000.0,
+    "Category": "Paycheck",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 15.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "BP",
+    "Amount": 30.64,
+    "Category": "Gas & Fuel",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-06"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 7.0,
+    "Category": "Coffee Shops",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 99.47,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Hawaiian Grill",
+    "Amount": 24.97,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 24.0,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 229.9,
+    "Category": "Home Improvement",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 13.9,
+    "Category": "Television",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 19.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 220.08,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 92.98,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Greek Restaurant",
+    "Amount": 23.26,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 103.14,
+    "Category": "Home Improvement",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 305.28,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 220.08,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 549.72,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 87.14,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 89.99,
+    "Category": "Shopping",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 814.5,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "BP",
+    "Amount": 36.42,
+    "Category": "Gas & Fuel",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 29.83,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 8.82,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 115.52,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Mexican Restaurant",
+    "Amount": 28.0,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 257.08,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 26.67,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 257.08,
+    "Category": "Credit Card Payment",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.5,
+    "Category": "Coffee Shops",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 30.0,
+    "Category": "Haircut",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 44.31,
+    "Category": "Home Improvement",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 5.35,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 44.92,
+    "Category": "Restaurants",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 15.77,
+    "Category": "Groceries",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-07"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "BP",
+    "Amount": 36.36,
+    "Category": "Gas & Fuel",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 3.96,
+    "Category": "Groceries",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 23.47,
+    "Category": "Restaurants",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 13.9,
+    "Category": "Television",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 18.0,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 349.28,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 117.65,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 521.17,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 117.65,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 125.0,
+    "Category": "Home Improvement",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 11.72,
+    "Category": "Groceries",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Thai Restaurant",
+    "Amount": 26.67,
+    "Category": "Restaurants",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 335.2,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 87.17,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 33.15,
+    "Category": "Groceries",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Barbershop",
+    "Amount": 19.0,
+    "Category": "Haircut",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "American Tavern",
+    "Amount": 3.5,
+    "Category": "Restaurants",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1248.95,
+    "Category": "Credit Card Payment",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 34.69,
+    "Category": "Gas & Fuel",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Brunch Restaurant",
+    "Amount": 39.43,
+    "Category": "Restaurants",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 66.75,
+    "Category": "Home Improvement",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.0,
+    "Category": "Coffee Shops",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 68.04,
+    "Category": "Home Improvement",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "BBQ Restaurant",
+    "Amount": 41.78,
+    "Category": "Restaurants",
+    "Month": "2019-08"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 13.09,
+    "Category": "Shopping",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Mortgage Payment",
+    "Amount": 1100.0,
+    "Category": "Mortgage & Rent",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Fancy Restaurant",
+    "Amount": 41.24,
+    "Category": "Restaurants",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Netflix",
+    "Amount": 13.9,
+    "Category": "Television",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 3.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1390.37,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1390.37,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 502.75,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 12.87,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 19.3,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Shell",
+    "Amount": 28.77,
+    "Category": "Gas & Fuel",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 65.09,
+    "Category": "Groceries",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Hardware Store",
+    "Amount": 26.25,
+    "Category": "Home Improvement",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Spotify",
+    "Amount": 10.69,
+    "Category": "Music",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Gas Company",
+    "Amount": 30.0,
+    "Category": "Utilities",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 360.56,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Phone Company",
+    "Amount": 65.0,
+    "Category": "Mobile Phone",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 360.56,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 46.44,
+    "Category": "Groceries",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 47.66,
+    "Category": "Shopping",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 90.57,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 90.57,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "City Water Charges",
+    "Amount": 35.0,
+    "Category": "Utilities",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 186.13,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Power Company",
+    "Amount": 60.0,
+    "Category": "Utilities",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "State Farm",
+    "Amount": 75.0,
+    "Category": "Auto Insurance",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 1606.46,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Brewing Company",
+    "Amount": 40.81,
+    "Category": "Alcohol & Bars",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 2.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 9.43,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Seafood Restaurant",
+    "Amount": 131.1,
+    "Category": "Restaurants",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Credit Card Payment",
+    "Amount": 9.43,
+    "Category": "Credit Card Payment",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Grocery Store",
+    "Amount": 27.71,
+    "Category": "Groceries",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Amazon",
+    "Amount": 24.63,
+    "Category": "Shopping",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Biweekly Paycheck",
+    "Amount": 2250.0,
+    "Category": "Paycheck",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "BP",
+    "Amount": 33.46,
+    "Category": "Gas & Fuel",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Sheetz",
+    "Amount": 4.27,
+    "Category": "Gas & Fuel",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Starbucks",
+    "Amount": 1.75,
+    "Category": "Coffee Shops",
+    "Month": "2019-09"
+  },
+  {
+    "Description": "Internet Service Provider",
+    "Amount": 75.0,
+    "Category": "Internet",
+    "Month": "2019-09"
+  }
+]
