@@ -36,10 +36,10 @@ public class AnalisisFinanciero {
 
     private Double probabilidad;
 
-    @Column(columnDefinition = "CLOB")
+    @Column(columnDefinition = "TEXT")
     private String resumenGastos;
 
-    @Column(columnDefinition = "CLOB")
+    @Column(columnDefinition = "TEXT")
     private String recomendaciones;
 
     @Column(nullable = false, updatable = false)

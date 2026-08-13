@@ -7,7 +7,7 @@ de predicción consumido por el Backend Gateway (Spring Boot).
 import re
 import unicodedata
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, Dict, List, Optional
 import joblib
 from fastapi import FastAPI, HTTPException, UploadFile, File
 import pandas as pd
