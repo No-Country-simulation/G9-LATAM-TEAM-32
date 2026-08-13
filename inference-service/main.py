@@ -46,10 +46,19 @@ TASAS_DE_CAMBIO_LATAM = {
     'USD': 1.0
 }
 
+# Prefijos comunes de extractos bancarios (Argentina + Colombia)
+PREFIJOS_REGEX = re.compile(
+    r'\bcompra en\b|\bcompra pos\b|\bdebito automatico\b|\btransf de\b|\btransf a\b|'
+    r'\bmp\*\b|\bpago mis cuentas\b|\bpago pse\b|\btransf nequi\b|\btransf daviplata\b|'
+    r'\bretiro cajero\b|\babono\b',
+    flags=re.IGNORECASE
+)
+
 def normalizar_texto_gasto(texto: str) -> str:
     if not texto:
         return ''
     texto = texto.lower()
+    texto = PREFIJOS_REGEX.sub('', texto)
     texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
     texto = re.sub(r'[^a-z0-9\s]', ' ', texto)
     texto = re.sub(r'\s+', ' ', texto).strip()
@@ -296,6 +305,36 @@ def predict(solicitud: SolicitudAnalisis):
         'recomendaciones': recomendaciones,
         'detalles_transacciones_procesadas': detalles_transacciones
     }
+
+@app.post("/clasificacion-transacciones")
+def clasificar_transacciones(payload: Dict[str, Any]):
+    """
+    Endpoint dedicado para la clasificación simple de transacciones (consumido por Spring Boot).
+    Soporta payloads tipo {"transacciones": [{"descripcion": "compra en coto", "valor": 500}]}
+    """
+    if modelo_ia is None:
+        raise HTTPException(status_code=500, detail="El modelo de IA no está cargado en el servidor.")
+    
+    trans_raw = payload.get("transacciones", [])
+    if not trans_raw:
+        return []
+    
+    descripciones = [normalizar_texto_gasto(t.get("descripcion", "")) for t in trans_raw]
+    try:
+        categorias = list(modelo_ia.predict(descripciones))
+    except Exception:
+        categorias = ["ocio y entretenimiento"] * len(descripciones)
+        
+    resultado = []
+    for t, cat in zip(trans_raw, categorias):
+        cat_str = str(cat)
+        resultado.append({
+            "descripcion": t.get("descripcion", ""),
+            "categoria": cat_str,
+            "categoriaAsignada": cat_str,
+            "categoria_asignada": cat_str
+        })
+    return resultado
 
 @app.post("/analizar-excel")
 async def analizar_excel(file: UploadFile = File(...)):
