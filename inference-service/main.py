@@ -4,6 +4,7 @@ Carga el modelo serializado por Ciencia de Datos y expone un endpoint
 de predicción consumido por el Backend Gateway (Spring Boot).
 """
 
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -21,19 +22,35 @@ app = FastAPI(
 )
 
 # ----------------------------------------------------------------------
-# Carga del Modelo de IA
+# Descarga del modelo desde OCI Object Storage (si no existe localmente)
 # ----------------------------------------------------------------------
-MODEL_PATH = Path(__file__).parent / "modelo_ia.pkl"
+OCI_NAMESPACE = os.environ.get("OCI_OS_NAMESPACE", "grto4sjfqbaf")
+OCI_BUCKET = os.environ.get("OCI_OS_BUCKET", "vinnah-models")
+OCI_MODEL_NAME = "modelo_ia.pkl"
+MODEL_PATH = Path(__file__).parent / OCI_MODEL_NAME
+
 if not MODEL_PATH.exists():
-    # Fallback al directorio data-science/models si no está en la raíz del servicio
-    MODEL_PATH = Path(__file__).parent.parent / "data-science" / "models" / "modelo_ia.pkl"
+    try:
+        import oci
+        config = oci.config.from_file()
+        client = oci.object_storage.ObjectStorageClient(config)
+        resp = client.get_object(OCI_NAMESPACE, OCI_BUCKET, OCI_MODEL_NAME)
+        with open(MODEL_PATH, "wb") as f:
+            for chunk in resp.data.raw.stream(1024 * 1024):
+                f.write(chunk)
+        print(f"✅ Modelo descargado desde OCI bucket '{OCI_BUCKET}'")
+    except Exception as e:
+        print(f"⚠️ No se pudo descargar de OCI: {e}")
+        fallback = Path(__file__).parent.parent / "data-science" / "models" / OCI_MODEL_NAME
+        if fallback.exists():
+            MODEL_PATH = fallback
 
 try:
     modelo_ia = joblib.load(MODEL_PATH)
-    print(f"✅ Modelo de IA cargado exitosamente desde: {MODEL_PATH}")
+    print(f"✅ Modelo de IA cargado desde: {MODEL_PATH}")
 except Exception as e:
     modelo_ia = None
-    print(f"⚠️ Advertencia: No se pudo cargar el modelo desde {MODEL_PATH}: {e}")
+    print(f"⚠️ No se pudo cargar el modelo: {e}")
 
 # ----------------------------------------------------------------------
 # Constantes y Funciones Auxiliares
@@ -322,17 +339,21 @@ def clasificar_transacciones(payload: Dict[str, Any]):
     descripciones = [normalizar_texto_gasto(t.get("descripcion", "")) for t in trans_raw]
     try:
         categorias = list(modelo_ia.predict(descripciones))
+        if hasattr(modelo_ia, "predict_proba"):
+            probas = modelo_ia.predict_proba(descripciones)
+        else:
+            probas = None
     except Exception:
         categorias = ["ocio y entretenimiento"] * len(descripciones)
-        
+        probas = None
+
     resultado = []
-    for t, cat in zip(trans_raw, categorias):
-        cat_str = str(cat)
+    for i, (t, cat) in enumerate(zip(trans_raw, categorias)):
+        prob = round(float(probas[i].max()), 4) if probas is not None else None
         resultado.append({
             "descripcion": t.get("descripcion", ""),
-            "categoria": cat_str,
-            "categoriaAsignada": cat_str,
-            "categoria_asignada": cat_str
+            "categoria": str(cat),
+            "probabilidad": prob
         })
     return resultado
 
