@@ -2,6 +2,10 @@ spring:
   application:
     name: financial-analysis-api
 
+  #Estilo de escritura
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
   # Configuracion JPA + Oracle (OCI Autonomous DB)
   datasource:
     url: jdbc:oracle:thin:@${OCI_DB_HOST:localhost}:1521/${OCI_DB_SERVICE:XEPDB1}

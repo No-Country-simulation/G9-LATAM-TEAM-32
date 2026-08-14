@@ -1,147 +1,205 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { api } from "@/lib/api";
+import { getTransacciones } from "@/lib/transacciones";
 
-const alertas = [
-  {
-    prioridad: "Alta prioridad",
-    prioridadColor: "bg-red-100 text-red-600",
-    dotColor: "bg-red-500",
-    titulo: "Has superado tu presupuesto de comida en S/ 85.",
-    detalle: "Lleva 128% de lo presupuestado esta semana.",
-  },
-  {
-    prioridad: "Media prioridad",
-    prioridadColor: "bg-yellow-100 text-yellow-700",
-    dotColor: "bg-yellow-500",
-    titulo: "Tus compras impulsivas aumentaron 35%.",
-    detalle: "Intenta planificar mejor tus compras esta semana.",
-  },
-];
+interface ResultadoAnalisis {
+  perfil_financiero: string;
+  probabilidad_riesgo: number;
+  ratio_gasto_ingreso_pct: number;
+  resumen_gastos_por_categoria: Record<string, number>;
+  recomendaciones: string[];
+  total_gastado_local: number;
+}
 
-const recomendaciones = [
-  {
-    titulo: "Ahorra en delivery esta semana",
-    detalle: "Si reduces tus pedidos por delivery, puedes ahorrar hasta S/ 90.",
-    accion: "Aplicar",
-  },
-  {
-    titulo: "Define un limite diario de gastos",
-    detalle: "Establece un limite de S/ 25 diarios para mantener el control.",
-    accion: "Configurar",
-  },
-  {
-    titulo: "Estas cerca de tu meta mensual",
-    detalle: "Te faltan S/ 180 para completar tu meta de ahorro.",
-    accion: "Ver mi meta",
-  },
-];
+const perfilConfig: Record<string, { label: string; emoji: string; color: string; bgCard: string; descripcion: string }> = {
+  "Saludable": { label: "Saludable", emoji: "", color: "bg-green-400", bgCard: "bg-[#2d4a3e]", descripcion: "Tus finanzas estan en buen estado. Sigue asi." },
+  "En observacion": { label: "En observacion", emoji: "", color: "bg-yellow-400", bgCard: "bg-yellow-700", descripcion: "Hay oportunidades de mejora en tus habitos financieros." },
+  "En riesgo": { label: "En riesgo", emoji: "", color: "bg-red-500", bgCard: "bg-red-800", descripcion: "Necesitas tomar accion para mejorar tu situacion financiera." },
+};
 
 export default function RecomendacionesPage() {
-  const [showConsejo, setShowConsejo] = useState(true);
+  const [ingreso, setIngreso] = useState("");
+  const [resultado, setResultado] = useState<ResultadoAnalisis | null>(null);
+  const [cargando, setCargando] = useState(false);
+  const [error, setError] = useState("");
+  const [totalTrans, setTotalTrans] = useState(0);
+
+  useEffect(() => {
+    setTotalTrans(getTransacciones().filter((t) => t.tipo === "gasto").length);
+  }, []);
+
+  async function analizar(e: React.FormEvent) {
+    e.preventDefault();
+    setError("");
+
+    const gastos = getTransacciones().filter((t) => t.tipo === "gasto");
+    if (gastos.length === 0) {
+      setError("No tienes transacciones registradas. Agrega gastos en la seccion Transacciones primero.");
+      return;
+    }
+
+    const trans = gastos.map((t) => ({
+      descripcion: t.descripcion,
+      valor: t.monto,
+      moneda: t.moneda || "ARS",
+    }));
+
+    const ingresoNum = parseFloat(ingreso);
+
+    setCargando(true);
+    try {
+      const data = await api.analisisFinanciero({
+        ingreso_mensual: ingresoNum,
+        nivel_endeudamiento: 20,
+        frecuencia_ahorro: "Media",
+        moneda_local_usuario: "ARS",
+        transacciones: trans,
+      });
+      setResultado(data);
+    } catch {
+      setError("Error al analizar. Verifica que los servicios esten activos.");
+    } finally {
+      setCargando(false);
+    }
+  }
+
+  const perfil = resultado ? perfilConfig[resultado.perfil_financiero] || perfilConfig["En observacion"] : null;
 
   return (
     <div className="flex flex-col px-5 py-6 space-y-6">
-      {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-[#1a1a1a] mb-1">Recomendaciones</h1>
+        <h1 className="text-2xl font-bold text-[#1a1a1a] mb-1">Recomendaciones IA</h1>
         <p className="text-sm text-[#6b6b6b]">
-          Analisis de tus datos para ayudarte a tomar mejores decisiones
+          Analizamos tus transacciones con inteligencia artificial para darte consejos personalizados
         </p>
       </div>
 
-      {/* Estado financiero */}
-      <div className="rounded-2xl bg-[#2d4a3e] text-white p-4">
-        <p className="text-xs opacity-80 mb-1">Tu estado financiero</p>
-        <div className="flex items-center gap-2 mb-1">
-          <span className="text-xl font-bold">Estable</span>
-          <span className="h-3 w-3 rounded-full bg-green-400" />
-        </div>
-        <p className="text-xs opacity-70 mb-3">Vas bien, pero hay oportunidades por mejorar</p>
-        <div className="flex gap-3">
-          {[
-            { label: "Riesgo alto", color: "bg-red-500" },
-            { label: "Riesgo moderado", color: "bg-orange-400" },
-            { label: "Estable", color: "bg-green-400", active: true },
-            { label: "Excelente", color: "bg-[#1a7a3a]" },
-          ].map(({ label, color, active }) => (
-            <div key={label} className="flex flex-col items-center gap-1">
-              <span className={`h-4 w-4 rounded-full ${color} ${active ? "ring-2 ring-white" : "opacity-60"}`} />
-              <span className="text-[9px] opacity-70">{label}</span>
+      {!resultado ? (
+        <>
+          {/* Info card */}
+          <div className="rounded-2xl bg-[#2d4a3e] text-white p-5">
+            <p className="text-sm font-medium mb-2">Como funciona?</p>
+            <ol className="text-xs opacity-80 space-y-1.5">
+              <li>1. Registra tus gastos en Transacciones</li>
+              <li>2. Ingresa tu ingreso mensual aqui</li>
+              <li>3. Nuestra IA analiza tus patrones y te da recomendaciones</li>
+            </ol>
+            <div className="mt-3 pt-3 border-t border-white/20 flex items-center gap-2">
+              <span className={`h-2.5 w-2.5 rounded-full ${totalTrans > 0 ? "bg-green-400" : "bg-yellow-400"}`} />
+              <span className="text-xs">
+                {totalTrans > 0
+                  ? `${totalTrans} transacciones listas para analizar`
+                  : "Sin transacciones registradas"}
+              </span>
             </div>
-          ))}
-        </div>
-      </div>
+          </div>
 
-      {/* Consejo del dia */}
-      {showConsejo && (
-        <div className="rounded-2xl border border-[#e0e0e0] bg-white p-5 relative">
+          {/* Formulario simplificado */}
+          <form onSubmit={analizar} className="rounded-2xl border border-[#e0e0e0] bg-white p-5 space-y-4">
+            {error && (
+              <div className="rounded-xl bg-red-50 border border-red-200 p-3">
+                <p className="text-red-600 text-sm">{error}</p>
+                {totalTrans === 0 && (
+                  <Link href="/transacciones" className="text-xs text-red-500 underline mt-1 inline-block">
+                    Ir a Transacciones
+                  </Link>
+                )}
+              </div>
+            )}
+
+            <div>
+              <label className="text-xs text-[#6b6b6b] block mb-1">Cual es tu ingreso mensual? (ARS)</label>
+              <input
+                type="number"
+                value={ingreso}
+                onChange={(e) => setIngreso(e.target.value)}
+                placeholder="Ej: 1500000"
+                required
+                className="w-full border-b border-[#c4c4c4] bg-transparent py-2 text-sm outline-none focus:border-[#2d4a3e] text-[#1a1a1a]"
+              />
+              <p className="text-[10px] text-[#999] mt-1">Solo necesitamos este dato. El resto lo calcula la IA.</p>
+            </div>
+
+            <button
+              type="submit"
+              disabled={cargando || totalTrans === 0}
+              className="w-full rounded-full bg-[#2d4a3e] py-3.5 text-white text-sm font-medium hover:bg-[#1e3529] transition-colors disabled:opacity-50"
+            >
+              {cargando ? "Analizando con IA..." : "Analizar mis finanzas"}
+            </button>
+          </form>
+        </>
+      ) : (
+        <>
+          {/* Perfil financiero */}
+          <div className={`rounded-2xl ${perfil!.bgCard} text-white p-5`}>
+            <p className="text-xs opacity-80 mb-1">Tu estado financiero</p>
+            <div className="flex items-center gap-2 mb-2">
+              <span className="text-2xl font-bold">{perfil!.label}</span>
+              <span className={`h-3.5 w-3.5 rounded-full ${perfil!.color}`} />
+            </div>
+            <p className="text-xs opacity-70 mb-4">{perfil!.descripcion}</p>
+
+            <div className="grid grid-cols-2 gap-3">
+              <div className="bg-white/10 rounded-xl p-3">
+                <p className="text-[10px] opacity-60 uppercase">Gastos / Ingreso</p>
+                <p className="text-lg font-bold">{resultado.ratio_gasto_ingreso_pct.toFixed(0)}%</p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-3">
+                <p className="text-[10px] opacity-60 uppercase">Total gastado</p>
+                <p className="text-lg font-bold">${resultado.total_gastado_local.toLocaleString()}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Gastos por categoria */}
+          <div className="rounded-2xl border border-[#e0e0e0] bg-white p-5">
+            <h3 className="text-sm font-semibold text-[#1a1a1a] mb-4">Distribucion de gastos</h3>
+            <div className="space-y-3">
+              {Object.entries(resultado.resumen_gastos_por_categoria)
+                .filter(([, v]) => v > 0)
+                .sort(([, a], [, b]) => b - a)
+                .map(([cat, monto]) => {
+                  const pct = resultado.total_gastado_local > 0 ? (monto / resultado.total_gastado_local) * 100 : 0;
+                  return (
+                    <div key={cat}>
+                      <div className="flex justify-between text-xs mb-1">
+                        <span className="text-[#1a1a1a] capitalize font-medium">{cat}</span>
+                        <span className="text-[#6b6b6b]">${monto.toLocaleString()} ({pct.toFixed(0)}%)</span>
+                      </div>
+                      <div className="h-2.5 bg-[#e8e5de] rounded-full overflow-hidden">
+                        <div className="h-full bg-[#2d4a3e] rounded-full transition-all" style={{ width: `${Math.min(pct, 100)}%` }} />
+                      </div>
+                    </div>
+                  );
+                })}
+            </div>
+          </div>
+
+          {/* Recomendaciones */}
+          <div>
+            <h3 className="text-lg font-semibold text-[#1a1a1a] mb-3">Consejos personalizados</h3>
+            <div className="space-y-3">
+              {resultado.recomendaciones.map((rec, i) => (
+                <div key={i} className="rounded-2xl border border-[#e0e0e0] bg-white p-4">
+                  <p className="text-sm text-[#1a1a1a] leading-relaxed">{rec}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Volver */}
           <button
-            onClick={() => setShowConsejo(false)}
-            className="absolute top-3 right-3 text-[#999] hover:text-[#1a1a1a] text-lg"
+            onClick={() => setResultado(null)}
+            className="w-full rounded-full border-2 border-[#2d4a3e] py-3 text-[#2d4a3e] text-sm font-medium hover:bg-[#2d4a3e] hover:text-white transition-colors"
           >
-            x
+            Nuevo analisis
           </button>
-          <span className="inline-block bg-green-100 text-green-700 text-xs font-medium rounded-full px-3 py-1 mb-3">
-            Consejo del dia
-          </span>
-          <p className="text-base font-bold text-[#1a1a1a] mb-2">
-            Has gastado 28% mas en restaurantes esta semana
-          </p>
-          <p className="text-sm text-[#6b6b6b]">
-            Si reduces tu gasto de comida fuera de casa podrias ahorrar aproximadamente $30
-          </p>
-        </div>
+        </>
       )}
-
-      {/* Alertas inteligentes */}
-      <div>
-        <h3 className="text-lg font-semibold text-[#1a1a1a] mb-3">Alertas inteligentes</h3>
-        <div className="grid grid-cols-2 gap-3">
-          {alertas.map((a, i) => (
-            <div key={i} className="rounded-2xl border border-[#e0e0e0] bg-white p-4 flex flex-col">
-              <div className="flex items-center justify-between mb-3">
-                <span className={`h-3 w-3 rounded-full ${a.dotColor}`} />
-                <span className={`text-[10px] font-medium rounded-full px-2 py-0.5 ${a.prioridadColor}`}>
-                  {a.prioridad}
-                </span>
-              </div>
-              <p className="text-xs font-semibold text-[#1a1a1a] mb-1">{a.titulo}</p>
-              <p className="text-[11px] text-[#6b6b6b] mb-3 flex-1">{a.detalle}</p>
-              <button className="rounded-full border border-[#2d4a3e] text-[#2d4a3e] text-xs py-1.5 hover:bg-[#2d4a3e] hover:text-white transition-colors">
-                Ver recomendacion
-              </button>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Recomendaciones personalizadas */}
-      <div>
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-lg font-semibold text-[#1a1a1a]">Recomendaciones personalizadas</h3>
-          <button className="text-xs text-[#6b6b6b] hover:text-[#2d4a3e]">Ver todas &gt;</button>
-        </div>
-        <div className="space-y-3">
-          {recomendaciones.map((r, i) => (
-            <div key={i} className="flex items-center gap-3 rounded-2xl border border-[#e0e0e0] bg-white p-4">
-              <span className="h-3 w-3 rounded-full bg-[#2d4a3e] flex-shrink-0" />
-              <div className="flex-1 min-w-0">
-                <p className="text-sm font-semibold text-[#1a1a1a]">{r.titulo}</p>
-                <p className="text-[11px] text-[#6b6b6b]">{r.detalle}</p>
-              </div>
-              <button className="flex-shrink-0 rounded-full border border-[#2d4a3e] text-[#2d4a3e] text-xs px-3 py-1.5 hover:bg-[#2d4a3e] hover:text-white transition-colors">
-                {r.accion}
-              </button>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Footer motivacional */}
-      <div className="rounded-2xl bg-[#e8e5de] p-5">
-        <p className="text-sm font-bold text-[#2d4a3e]">Pequenas decisiones hoy, grandes resultados manana.</p>
-      </div>
     </div>
   );
 }

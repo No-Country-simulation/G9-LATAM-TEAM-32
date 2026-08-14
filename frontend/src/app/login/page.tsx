@@ -14,12 +14,6 @@ export default function LoginPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError("");
-    // ponytail: bypass login para dev, quitar cuando la DB esté conectada
-    if (process.env.NODE_ENV === "development") {
-      localStorage.setItem("token", "dev-token");
-      router.push("/dashboard");
-      return;
-    }
     try {
       const data = await api.login(email, password);
       localStorage.setItem("token", data.token);
@@ -81,7 +75,7 @@ export default function LoginPage() {
         {/* Register link */}
         <p className="mt-6 text-sm text-[#6b6b6b]">
           No tienes cuenta?{" "}
-          <Link href="#" className="font-semibold text-[#2d4a3e] hover:underline">
+          <Link href="/registro" className="font-semibold text-[#2d4a3e] hover:underline">
             Crear cuenta
           </Link>
         </p>
