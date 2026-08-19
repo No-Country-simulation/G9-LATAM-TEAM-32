@@ -71,7 +71,7 @@ export default function CategoriasPage() {
               onChange={(e) => setNombre(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && agregar()}
               placeholder="Nombre de categoria"
-              className="flex-1 border-b border-[#c4c4c4] bg-transparent px-2 py-1 text-sm outline-none focus:border-[#2d4a3e]"
+              className="flex-1 border-b border-[#c4c4c4] bg-transparent px-2 py-1 text-sm text-[#1a1a1a] placeholder-[#999] outline-none focus:border-[#2d4a3e]"
             />
             <button onClick={agregar} className="rounded-full bg-[#2d4a3e] px-4 py-1 text-sm text-white">
               OK

@@ -22,7 +22,29 @@ export default function DashboardPage() {
   return (
     <div className="flex flex-col">
       <main className="flex-1 px-5 py-6 space-y-6">
-        <h2 className="text-2xl font-bold text-[#1a1a1a]">Dashboard</h2>
+        <div className="flex items-center justify-between">
+          <h2 className="text-2xl font-bold text-[#1a1a1a]">Dashboard</h2>
+        </div>
+
+        {/* Mascot Banner */}
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#2d4a3e] to-[#3f6354] p-6 text-white shadow-md flex items-center justify-between min-h-[150px]">
+          <div className="z-10 max-w-[60%]">
+            <span className="inline-block rounded-full bg-white/20 px-3 py-1 text-xs font-medium backdrop-blur-sm mb-2">
+              Asistente Vinnah 🐢
+            </span>
+            <h3 className="text-xl font-bold leading-tight">¡Hola, Ruth!</h3>
+            <p className="text-xs text-white/85 mt-1.5 leading-relaxed">
+              Tu salud financiera marcha sobre ruedas este mes. ¡Sigue así!
+            </p>
+          </div>
+          <div className="relative -mr-4 -my-8 w-44 h-44 flex-shrink-0 drop-shadow-2xl hover:scale-105 transition-transform duration-300">
+            <img
+              src="/mascota_tortuga_1_left.png"
+              alt="Mascota Tortuga Vinnah"
+              className="w-full h-full object-contain pointer-events-none"
+            />
+          </div>
+        </div>
 
         {/* Balance cards */}
         <div className="grid grid-cols-2 gap-3">

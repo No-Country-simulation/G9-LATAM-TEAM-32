@@ -1,40 +1,33 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { getCategorias, Categoria } from "@/lib/categorias";
+import { getTransacciones, saveTransaccion, getResumen, TransaccionGuardada } from "@/lib/transacciones";
 import { api } from "@/lib/api";
-import { getCategorias, type Categoria } from "@/lib/categorias";
-import { getTransacciones, saveTransaccion, getResumen, type TransaccionGuardada } from "@/lib/transacciones";
 
 export default function TransaccionesPage() {
-  const [transacciones, setTransacciones] = useState<TransaccionGuardada[]>([]);
-  const [categorias, setCategorias] = useState<Categoria[]>([]);
-  const [showForm, setShowForm] = useState(false);
+  const [tipo, setTipo] = useState<"gasto" | "ingreso">("gasto");
   const [descripcion, setDescripcion] = useState("");
   const [monto, setMonto] = useState("");
   const [categoria, setCategoria] = useState("");
-  const [tipo, setTipo] = useState<"gasto" | "ingreso">("gasto");
-  const [cargando, setCargando] = useState(false);
+  const [categorias, setCategorias] = useState<Categoria[]>([]);
+  const [transacciones, setTransacciones] = useState<TransaccionGuardada[]>([]);
   const [resumen, setResumen] = useState({ totalIngresos: 0, totalGastos: 0, balance: 0 });
+  const [showForm, setShowForm] = useState(false);
+  const [cargando, setCargando] = useState(false);
 
   useEffect(() => {
-    setTransacciones(getTransacciones());
     setCategorias(getCategorias());
-    const r = getResumen();
-    setResumen({ totalIngresos: r.totalIngresos, totalGastos: r.totalGastos, balance: r.balance });
+    setTransacciones(getTransacciones());
+    setResumen(getResumen());
   }, []);
-
-  useEffect(() => {
-    if (showForm) setCategorias(getCategorias());
-  }, [showForm]);
 
   const categoriasFiltradas = categorias.filter((c) => c.tipo === tipo);
 
   async function agregar(e: React.FormEvent) {
     e.preventDefault();
-    if (!descripcion.trim() || !monto || !categoria) return;
-
     const montoNum = parseFloat(monto);
-    const now = new Date();
+    if (!descripcion || isNaN(montoNum) || montoNum <= 0 || !categoria) return;
 
     let categoriaIA: string | undefined;
     let probabilidadIA: number | undefined;
@@ -42,24 +35,20 @@ export default function TransaccionesPage() {
     if (tipo === "gasto") {
       setCargando(true);
       try {
-        const resultado = await api.clasificarTransacciones([
-          { descripcion: descripcion.trim(), valor: montoNum, moneda: "ARS" },
-        ]);
-        if (resultado.clasificaciones?.length > 0) {
-          categoriaIA = resultado.clasificaciones[0].categoria;
-          probabilidadIA = resultado.clasificaciones[0].probabilidad;
+        const resultados = await api.clasificar([descripcion]);
+        if (resultados.length > 0) {
+          categoriaIA = resultados[0].categoria;
+          probabilidadIA = resultados[0].probabilidad ?? undefined;
         }
       } catch {
-        // AI classification failed, continue without it
+        // Fallback silencioso si el backend no responde
       } finally {
         setCargando(false);
       }
     }
 
     const nueva = saveTransaccion({
-      fecha: now.toISOString().split("T")[0],
-      hora: now.toTimeString().slice(0, 5),
-      descripcion: descripcion.trim(),
+      descripcion,
       categoria,
       categoriaIA,
       probabilidadIA,

@@ -2,22 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { api } from "@/lib/api";
 import { getTransacciones } from "@/lib/transacciones";
+import { api, ResultadoAnalisis } from "@/lib/api";
 
-interface ResultadoAnalisis {
-  perfil_financiero: string;
-  probabilidad_riesgo: number;
-  ratio_gasto_ingreso_pct: number;
-  resumen_gastos_por_categoria: Record<string, number>;
-  recomendaciones: string[];
-  total_gastado_local: number;
-}
-
-const perfilConfig: Record<string, { label: string; emoji: string; color: string; bgCard: string; descripcion: string }> = {
-  "Saludable": { label: "Saludable", emoji: "", color: "bg-green-400", bgCard: "bg-[#2d4a3e]", descripcion: "Tus finanzas estan en buen estado. Sigue asi." },
-  "En observacion": { label: "En observacion", emoji: "", color: "bg-yellow-400", bgCard: "bg-yellow-700", descripcion: "Hay oportunidades de mejora en tus habitos financieros." },
-  "En riesgo": { label: "En riesgo", emoji: "", color: "bg-red-500", bgCard: "bg-red-800", descripcion: "Necesitas tomar accion para mejorar tu situacion financiera." },
+const perfilConfig: Record<string, { label: string; emoji: string; color: string; bgCard: string; descripcion: string; mascot: string }> = {
+  "Saludable": { label: "Saludable", emoji: "", color: "bg-green-400", bgCard: "bg-[#2d4a3e]", descripcion: "Tus finanzas estan equilibradas. Buen control de gastos.", mascot: "/tortuga_excelente_left.png" },
+  "En observacion": { label: "En observacion", emoji: "", color: "bg-orange-400", bgCard: "bg-amber-800", descripcion: "Tus gastos estan cerca del limite. Modera consumos no esenciales.", mascot: "/tortuga_riesgo_moderado_left.png" },
+  "En riesgo": { label: "En riesgo", emoji: "", color: "bg-red-500", bgCard: "bg-red-800", descripcion: "Necesitas tomar accion urgente para mejorar tu situacion financiera.", mascot: "/tortuga_riesgo_alto_left.png" },
 };
 
 export default function RecomendacionesPage() {
@@ -79,25 +70,34 @@ export default function RecomendacionesPage() {
 
       {!resultado ? (
         <>
-          {/* Info card */}
-          <div className="rounded-2xl bg-[#2d4a3e] text-white p-5">
-            <p className="text-sm font-medium mb-2">Como funciona?</p>
-            <ol className="text-xs opacity-80 space-y-1.5">
-              <li>1. Registra tus gastos en Transacciones</li>
-              <li>2. Ingresa tu ingreso mensual aqui</li>
-              <li>3. Nuestra IA analiza tus patrones y te da recomendaciones</li>
-            </ol>
-            <div className="mt-3 pt-3 border-t border-white/20 flex items-center gap-2">
-              <span className={`h-2.5 w-2.5 rounded-full ${totalTrans > 0 ? "bg-green-400" : "bg-yellow-400"}`} />
-              <span className="text-xs">
-                {totalTrans > 0
-                  ? `${totalTrans} transacciones listas para analizar`
-                  : "Sin transacciones registradas"}
-              </span>
+          {/* Info card con Mascota */}
+          <div className="rounded-2xl bg-[#2d4a3e] text-white p-5 relative overflow-hidden flex items-center justify-between shadow-md">
+            <div className="flex-1 pr-4 z-10 max-w-[70%]">
+              <p className="text-sm font-bold mb-2">¿Cómo funciona?</p>
+              <ol className="text-xs opacity-85 space-y-1.5 leading-relaxed">
+                <li>1. Registra tus gastos en Transacciones.</li>
+                <li>2. Ingresa tu ingreso mensual aquí.</li>
+                <li>3. Nuestra IA analiza tus patrones y emite recomendaciones.</li>
+              </ol>
+              <div className="mt-3 pt-3 border-t border-white/20 flex items-center gap-2">
+                <span className={`h-2.5 w-2.5 rounded-full ${totalTrans > 0 ? "bg-green-400" : "bg-yellow-400"}`} />
+                <span className="text-xs">
+                  {totalTrans > 0
+                    ? `${totalTrans} transacciones listas para analizar`
+                    : "Sin transacciones registradas"}
+                </span>
+              </div>
+            </div>
+            <div className="w-28 h-28 flex-shrink-0 drop-shadow-xl hover:scale-105 transition-transform duration-300 -mr-2">
+              <img
+                src="/tortuga_estable_left.png"
+                alt="Mascota Tortuga Vinnah"
+                className="w-full h-full object-contain pointer-events-none"
+              />
             </div>
           </div>
 
-          {/* Formulario simplificado */}
+          {/* Formulario */}
           <form onSubmit={analizar} className="rounded-2xl border border-[#e0e0e0] bg-white p-5 space-y-4">
             {error && (
               <div className="rounded-xl bg-red-50 border border-red-200 p-3">
@@ -111,7 +111,7 @@ export default function RecomendacionesPage() {
             )}
 
             <div>
-              <label className="text-xs text-[#6b6b6b] block mb-1">Cual es tu ingreso mensual? (ARS)</label>
+              <label className="text-xs text-[#6b6b6b] block mb-1">¿Cuál es tu ingreso mensual estimado? (ARS)</label>
               <input
                 type="number"
                 value={ingreso}
@@ -134,30 +134,40 @@ export default function RecomendacionesPage() {
         </>
       ) : (
         <>
-          {/* Perfil financiero */}
-          <div className={`rounded-2xl ${perfil!.bgCard} text-white p-5`}>
-            <p className="text-xs opacity-80 mb-1">Tu estado financiero</p>
-            <div className="flex items-center gap-2 mb-2">
-              <span className="text-2xl font-bold">{perfil!.label}</span>
-              <span className={`h-3.5 w-3.5 rounded-full ${perfil!.color}`} />
-            </div>
-            <p className="text-xs opacity-70 mb-4">{perfil!.descripcion}</p>
+          {/* Perfil financiero con Mascota Adaptativa */}
+          <div className={`rounded-2xl ${perfil!.bgCard} text-white p-5 relative overflow-hidden flex items-center justify-between shadow-md`}>
+            <div className="flex-1 pr-4 z-10 max-w-[65%]">
+              <p className="text-xs opacity-80 mb-1">Tu estado financiero</p>
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-2xl font-bold">{perfil!.label}</span>
+                <span className={`h-3.5 w-3.5 rounded-full ${perfil!.color}`} />
+              </div>
+              <p className="text-xs opacity-80 mb-4">{perfil!.descripcion}</p>
 
-            <div className="grid grid-cols-2 gap-3">
-              <div className="bg-white/10 rounded-xl p-3">
-                <p className="text-[10px] opacity-60 uppercase">Gastos / Ingreso</p>
-                <p className="text-lg font-bold">{resultado.ratio_gasto_ingreso_pct.toFixed(0)}%</p>
+              <div className="grid grid-cols-2 gap-3">
+                <div className="bg-white/10 rounded-xl p-3">
+                  <p className="text-[10px] opacity-70 uppercase">Gastos / Ingreso</p>
+                  <p className="text-lg font-bold">{resultado.ratio_gasto_ingreso_pct.toFixed(0)}%</p>
+                </div>
+                <div className="bg-white/10 rounded-xl p-3">
+                  <p className="text-[10px] opacity-70 uppercase">Total gastado</p>
+                  <p className="text-lg font-bold">${resultado.total_gastado_local.toLocaleString()}</p>
+                </div>
               </div>
-              <div className="bg-white/10 rounded-xl p-3">
-                <p className="text-[10px] opacity-60 uppercase">Total gastado</p>
-                <p className="text-lg font-bold">${resultado.total_gastado_local.toLocaleString()}</p>
-              </div>
+            </div>
+
+            <div className="w-32 h-32 flex-shrink-0 drop-shadow-2xl hover:scale-105 transition-transform duration-300 -mr-2">
+              <img
+                src={perfil!.mascot}
+                alt={perfil!.label}
+                className="w-full h-full object-contain pointer-events-none"
+              />
             </div>
           </div>
 
           {/* Gastos por categoria */}
           <div className="rounded-2xl border border-[#e0e0e0] bg-white p-5">
-            <h3 className="text-sm font-semibold text-[#1a1a1a] mb-4">Distribucion de gastos</h3>
+            <h3 className="text-sm font-semibold text-[#1a1a1a] mb-4">Distribución de gastos</h3>
             <div className="space-y-3">
               {Object.entries(resultado.resumen_gastos_por_categoria)
                 .filter(([, v]) => v > 0)
@@ -181,11 +191,12 @@ export default function RecomendacionesPage() {
 
           {/* Recomendaciones */}
           <div>
-            <h3 className="text-lg font-semibold text-[#1a1a1a] mb-3">Consejos personalizados</h3>
+            <h3 className="text-lg font-semibold text-[#1a1a1a] mb-3">Consejos personalizados de la Mascota Vinnah</h3>
             <div className="space-y-3">
               {resultado.recomendaciones.map((rec, i) => (
-                <div key={i} className="rounded-2xl border border-[#e0e0e0] bg-white p-4">
-                  <p className="text-sm text-[#1a1a1a] leading-relaxed">{rec}</p>
+                <div key={i} className="rounded-2xl border border-[#e0e0e0] bg-white p-4 flex items-start gap-3">
+                  <span className="text-lg">💡</span>
+                  <p className="text-sm text-[#1a1a1a] leading-relaxed flex-1">{rec}</p>
                 </div>
               ))}
             </div>
@@ -196,7 +207,7 @@ export default function RecomendacionesPage() {
             onClick={() => setResultado(null)}
             className="w-full rounded-full border-2 border-[#2d4a3e] py-3 text-[#2d4a3e] text-sm font-medium hover:bg-[#2d4a3e] hover:text-white transition-colors"
           >
-            Nuevo analisis
+            Nuevo análisis
           </button>
         </>
       )}

@@ -89,8 +89,9 @@ Se adoptó un patrón de **Arquitectura de Microservicios Políglotas Desacoplad
 | Fecha | Decisión de Arquitectura | Justificación / Impacto | Responsable |
 | :---: | :--- | :--- | :---: |
 | **24/07/2026** | Adopción de mono-repo políglota (Java + Python + Next.js). | Permite centralizar la colaboración de Frontend, Backend y Data Science manteniendo despliegues independientes. | Equipo |
-| **26/07/2026** | Estandarización de 8 categorías oficiales de gastos y API FastAPI. | Permite clasificar transacciones homogéneamente y ofrecer inferencia en tiempo real (< 50ms) con Swagger UI. | Ruth |
-| **07/08/2026** | Integración Spring Boot Gateway ↔ FastAPI mediante `WebClient`. | Comunicación reactiva y no bloqueante para delegar la inferencia sin acoplar lógica de IA en Java. | Jaiver / Ruth |
+| **26/07/2026** | Estandarización de 8 categorías oficiales de gastos y API FastAPI. | Permite clasificar transacciones homogéneamente y ofrecer inferencia en tiempo real (< 50ms) con Swagger UI. | Ruth / Natalia (Data Science) |
+| **07/08/2026** | Integración Spring Boot Gateway ↔ FastAPI mediante `WebClient`. | Comunicación reactiva y no bloqueante para delegar la inferencia sin acoplar lógica de IA en Java. | Jaiver / Ruth / Natalia |
 | **13/08/2026** | Inclusión de perfil H2 (`application-dev.yml`) en Spring Boot. | Permite levantar y probar el backend localmente sin necesidad de instalar Oracle o PostgreSQL. | Daniel |
 | **14/08/2026** | Integración de OCI Object Storage para descarga dinámica de `.pkl`. | Desacopla los binarios pesados del repositorio Git y centraliza la distribución del modelo de IA en la nube. | Daniel |
+| **14/08/2026** | Validación y pruebas de inferencia multiclase en API y Notebook. | Pruebas de integración del clasificador financiero con transacciones y ajustes en notebook. | Natalia / Ruth (Data Science) |
 | **14/08/2026** | Habilitación de CORS y conexión completa Frontend Next.js ↔ Backend. | Permite la comunicación fluida del cliente web con los endpoints protegidos de Spring Boot. | Daniel |
